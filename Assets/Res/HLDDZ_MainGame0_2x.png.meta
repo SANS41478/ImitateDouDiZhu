@@ -1,0 +1,6111 @@
+fileFormatVersion: 2
+guid: d821f3b490785f54f82a61dfbe684fb9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 984
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717fb8333cb280f4fb0985aa5e534fc0
+      internalID: -1176830738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 984
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0695d72faa5714391a772f2c42b6b9
+      internalID: 1443501158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 984
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46264e67536e0654ba09ec8a1dc9cddf
+      internalID: -1414152929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 984
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b942ed0293f5f43a3ffdca692bb67a
+      internalID: -1903981092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 984
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff0117723fa3ba489101231c22eccd5
+      internalID: 909644254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 984
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06359776b76183478481d671b1a344a
+      internalID: -1986030090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 984
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d316089a4ab639438107884f7dc636e
+      internalID: -1126027565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 984
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d5e551aa139c4daf4215b23a3f7b8
+      internalID: 1774656325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_8
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 984
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f108e4bfdceb641b3dc618c9b74c47
+      internalID: -747771643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_9
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 984
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2549c0d4c64df3346b890f44d8e073e4
+      internalID: 741332821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 984
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69fdb355609ae2d409b14584b814a8fa
+      internalID: -249760381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_11
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 983
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f35f9de908463448b702dd654839592
+      internalID: 1082357500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 984
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f042459ebe974540854f9c3d844bf25
+      internalID: -58134757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_13
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 968
+        width: 178
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a56530d3841d0e44a7741f5c52fe47a
+      internalID: 233484763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_14
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 968
+        width: 186
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed4644547a6b345a7406bbd4838b3a
+      internalID: 1084881142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_15
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 978
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d1d98eb67cae4da16be65ee7c1e67
+      internalID: 752110622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_16
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 961
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa97d842dfcaa742aa0dcaf5d7cc725
+      internalID: 211126073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_17
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 979
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d15da73ecb6b64ba14e46977018790
+      internalID: -1620871518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 942
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a096503dd0e94408aacca055570596
+      internalID: -982638458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 942
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d94c75ca2cc1545baac51574ab3ede
+      internalID: -1016380933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 942
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d87de770590cd41baf941fae4ff67e
+      internalID: -1710455049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 942
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c4c8409825e75429dfaad322bdf184
+      internalID: 1268065003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 942
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e160aed47ebe8641aae57c3296ab6cb
+      internalID: -1605169010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 942
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb6260135d3b78489cd8df41ffb7bd6
+      internalID: -337616435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 942
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce812533d0f25e40b4a431072188a30
+      internalID: 510376829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_25
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 942
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e790b60f9aa7bed49979363d3de5e465
+      internalID: -403483647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_26
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 942
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c78eb9d3ec4f224392fbaa9171fa431
+      internalID: -1910641955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 942
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa01bb9118e91574e89f6fb128e29a9a
+      internalID: -681930953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_28
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 942
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19736043bdf63d740a5a7c71bba47df1
+      internalID: -424664147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_29
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 941
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aac36bbfd0320429b82c6533942fcd
+      internalID: -1746310936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_30
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 942
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f3ebde09294e247b6c37bfd0cc7c2a
+      internalID: -1444067583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_31
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 920
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3828f58fbae1bc949a698eda5a062a6b
+      internalID: 1126542868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_32
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 920
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732f58dea7f8c6a44a6d54bca04b11c4
+      internalID: 1575470863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_33
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 920
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad198de7d66925641abdb006faee58f7
+      internalID: -1647794299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_34
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 920
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1007d70fe9de2dc428b563e7767ccbad
+      internalID: 449520278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_35
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 920
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e29d896aee4dd4ab084f94617328cb
+      internalID: -1460993737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_36
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 920
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0052ce9ed40eec4d88bb1ac8268b98d
+      internalID: 1053609795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_37
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 920
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8645c5ebf1d107408a866517ace693f
+      internalID: -1353649915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_38
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 920
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548f43479331b2f4a8071cd3b7c9dccb
+      internalID: -839499439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_39
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 920
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749da0d6b8f9bc449a1f14c555043826
+      internalID: 868639856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_40
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 920
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef133b4ba01d0a46b3a70dd1b387ad8
+      internalID: -633482346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_41
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 916
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42c511771fd57146b3d69bd67ea1a3a
+      internalID: -900829485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_42
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 916
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669e39ffacae28146813d6cd41c3bef2
+      internalID: -1680999682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_43
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 924
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8ddcdbbbeaf9241a92c045d3a51e21
+      internalID: 1353590569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_44
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 899
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd4e49479608af4eaa6ac2965da350b
+      internalID: 536323074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_45
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 899
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4992d278b0c32241a902f06c344e5e2
+      internalID: 2031105914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_46
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 899
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d17d4c68a869e74a9a97c2854ac8ea0
+      internalID: -601043733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_47
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 899
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a839fa4cafab9ee4d89d31fe6ef5044f
+      internalID: -1960012425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 899
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e22001d0c3f0314fa8bf13da4139a65
+      internalID: 601170458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_49
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 899
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5754bb2d8f0ee6c45bde54d0b2e126d5
+      internalID: 1185932011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 899
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb56a6a4527616e4bb56ac216fa30e32
+      internalID: 1855537687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_51
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 899
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b26f04dc6887a4c9dbe12272e59667
+      internalID: -399833812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_52
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 899
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120640dbe26f3a942adbff7d65dbe10c
+      internalID: -557645161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_53
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 899
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a502dd9c3845be4eb093180af070e84
+      internalID: 1466227797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_54
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 899
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7831fdfca70786644b9669bb044effbe
+      internalID: 803537669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_55
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 898
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5cb2c806930b14390e1a1d05370000
+      internalID: -1887599532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_56
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 899
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf1c4a6891483a47ae0d2470181e08b
+      internalID: 296331418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_57
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71843c9968e79842b144a58921665bb
+      internalID: 188282995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 875
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5968f2f672a27694585fb7ace870eec0
+      internalID: 126146033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_59
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 875
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390d5703fe298264580166428c50a8d0
+      internalID: 1584216785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_60
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17179a16f1e2ee441845ed5f4b6390bf
+      internalID: 39967691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_61
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 875
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963283dc3d661fd44a60aeb0f6e8b463
+      internalID: -236510579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_62
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 875
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8722152854840e042811c4fd3f441c26
+      internalID: 667651596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_63
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862ae3bee8a8f5144992ccde5f136da5
+      internalID: -228777433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_64
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6d22e7082e0ec43a9ad37df93f633d
+      internalID: -1304736452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_65
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2298f7b127ab9584888574a8ad6ebb96
+      internalID: 867700730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_66
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 875
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76f9d5fa4ed9844aaf1f82f6adf5306
+      internalID: -1057493704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_67
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 880
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395cf30a06c9e394fa24d195533bfe1d
+      internalID: -382976127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_68
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 898
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084f05c8e83320a4d95000bfb427be31
+      internalID: 844261348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_69
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 898
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4197458761ee7438ebb2860698c52e
+      internalID: 1923705978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_70
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 898
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dffb1b086d6b24085f4c74f4aa2361
+      internalID: -1013850164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_71
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 898
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d8539f133a5b4aa198cf3ff6e7284
+      internalID: 531202308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_72
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 733
+        width: 126
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52ec46df19a4a74bb8c1077587275c7
+      internalID: -62775468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_73
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 872
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13157fbae55135b4ab48a5881fe889e8
+      internalID: 378949672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_74
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff099450ce6e9d4e8239791e210d4f4
+      internalID: 1131567587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_75
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48474a91922edda449da4c2133d161af
+      internalID: 1907704506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_76
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 872
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48718e81c9a72141a77eecf1e496dd9
+      internalID: -748520482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_77
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2420f937509dd6a478e65da7c1764bc3
+      internalID: 1113498072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_78
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bbe1bfb1f548b4b93c4c3569356ee4
+      internalID: -1670482118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_79
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4907da2ba06cbef4d84e3e91b499cf28
+      internalID: 697513396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_80
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7d814988cfb3442ad5d70342670af7
+      internalID: 138985965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_81
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 079262db29312d94f83243290a107d50
+      internalID: -1467507311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_82
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 872
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f43396c4320374a834a889552487dc
+      internalID: -1902582744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_83
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 872
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e301047d3ab585a4c836717aec4ce0ba
+      internalID: 1025722151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_84
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 872
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2899ea802a91374a92ec83d68642cb6
+      internalID: 1523333880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_85
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 871
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbcc5bd8b635734ba6f175b258e4bbe
+      internalID: -125413027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_86
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 872
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105a789ee4ef7e24fa48eb596e3f0eed
+      internalID: -493989938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_87
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 880
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e7b3216adfc124f81e9db519fdeccb
+      internalID: -7899248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_88
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 880
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68de63fb67487b14d859f2a5de23ce8d
+      internalID: -443136836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_89
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 880
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f37aec3ad40484da9af80a7e104ae4
+      internalID: -562858521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_90
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 879
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f822acae86af154449df437e4fb93ce9
+      internalID: 2146197259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_91
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 842
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebfc0beb1199a44aa475d529f1503a8
+      internalID: 1921275430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_92
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce67e3f0af46d488630110857f311c
+      internalID: 1253256642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92cc9b31920a2b54a99663d70b3035a7
+      internalID: 243856046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_94
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 842
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05eabb49bbdc4e049b9f5d1245fc14ce
+      internalID: 1302546122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_95
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d75b28de63449a40b5aa5948ab4a42f
+      internalID: 1135686142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_96
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412380076357d054d9afbc531040a4b4
+      internalID: -676114774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_97
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac67083acae3a0a4db924617ecf4213c
+      internalID: 1002882017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_98
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57719191c3fc8ff4b838bfef338f29e4
+      internalID: -1994089655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_99
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2ec3b196a33954cabe990448c152ce
+      internalID: 1540685028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_100
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 842
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aeaa1b61ede6c947a59b0090d7a303b
+      internalID: 1437413093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_101
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 842
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b412b1366c789042b807da4cfd58cd9
+      internalID: -1712734017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_102
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 842
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a8fe92de6c35040a4b9e173ad0c57a
+      internalID: 982284247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_103
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 841
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134e4af3e0d8094fa9edeeef244ea49
+      internalID: -1651784064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_104
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 842
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220e7d9b701836b4fbe56c740c9feb57
+      internalID: -236834642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_105
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9ba24b4c7ee784aa2d82b61e6e7d88
+      internalID: -1598802207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_106
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 822
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d025f4048049443ac0e976eb1076be
+      internalID: -1815909101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_107
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 822
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d41e31581bf08e40912cd229f1f5837
+      internalID: -21897015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_108
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4964e82e2dcf74f90a72801a705a3d
+      internalID: 70199361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_109
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 822
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a4be0f469ed0f47b8086e6007ccbe7
+      internalID: -616810355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_110
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 822
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96c2f05c9fd4624ba3966b14a9472e5
+      internalID: -1335590490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_111
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab88ff41b66321d4db50052ff61ef8eb
+      internalID: 659623543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_112
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01379cde86add4e4facd455164b3fb4b
+      internalID: -922791347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_113
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030284d67a64ae54c93a8602419f4c98
+      internalID: -1550002145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_114
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 822
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af304315986a5c0449654d948a48568a
+      internalID: 1650007495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_115
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 782
+        width: 78
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c80ac90a983bd94aa76b07114c7bad1
+      internalID: 298284556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_116
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 837
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973cf700462751a498acf8e8665935e0
+      internalID: -322799214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_117
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 810
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f8a869d8fbcbc44a2fef7bd492ab2b
+      internalID: -795115374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_118
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b6532e1f7ed7439a0bd8b4795480b
+      internalID: -1677282689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_119
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7add52657e81e94d913548f636045d4
+      internalID: -1514472677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_120
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 810
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b81deb8b63e4d42bf12dc16494a55c
+      internalID: -1870344807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_121
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a3e4e62d26223418662adc4f76cf5a
+      internalID: -1984831747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_122
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a4c74df9927ca45915b4cbc9639aff
+      internalID: -1647780496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_123
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb0bc4a6d837574ca854bc7472768b2
+      internalID: -1209925802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_124
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eda91502bd8867408311d777180e1b9
+      internalID: -1293217663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_125
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51fd2404b414024b9400b6f3ff1d588
+      internalID: -115003262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_126
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 810
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e9f77cfc27fa348abc7acb695e8e8b
+      internalID: 1867737419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_127
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 810
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4070a918464dc1746a6eabe762e32a8f
+      internalID: -731949288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_128
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 810
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cfebcfac952bed4899a928e303c2c16
+      internalID: 1840881181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_129
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 809
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb40b01182b228d4093b869df63e9bd1
+      internalID: -1225410661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_130
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 810
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ef08a1c461c8b409511df7d7c36365
+      internalID: 897500903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_131
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 788
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac150704c1070c14abe3626bcc85a7ad
+      internalID: 240342400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_132
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 750
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6782516924486e64082c919fc1dd96bf
+      internalID: 1003200640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_133
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 781
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d56450020efe24ea0a3e9adcfbc636
+      internalID: 1250981093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_134
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 781
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d587ce871078b548871337fe72b86e0
+      internalID: -2103462237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_135
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 781
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02db072b1431b54e8e2dcf65186497f
+      internalID: 378534618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_136
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 781
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bf73dfb7a62d747ae05197b6b8da52
+      internalID: -53374198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_137
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 743
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f209711cf9e57498a05850f74412d6
+      internalID: 1327607776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_138
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 744
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91239628d6b3bb24485a3467a0d42fc2
+      internalID: -1846829674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_139
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a4e6cd4c73814f9309ebf28ffe22e
+      internalID: -240086112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_140
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 775
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc93d2de1fac0da46b4e9aa80003f40d
+      internalID: 559964470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_141
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 775
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1915f89b8914b43973b6fdc4eac566
+      internalID: 2140462648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_142
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411e27ac4755f9e448494293446e9082
+      internalID: 1497422048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_143
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 775
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb41e2b0b7c4de4baa08d3ab3470360
+      internalID: -1127409847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_144
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 775
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa757c7fbb3d104ab17669a4e81bde3
+      internalID: -1282967021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_145
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397dc394d280d644abb031b5fd1cc8d
+      internalID: 1090985413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_146
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0168c772b6c400e42bd7967fa4427b3b
+      internalID: 938096931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_147
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988acefa6ad1599408073d7dd20cb62a
+      internalID: -227872794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_148
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 775
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f09d2cf02c578b49aa3c1180252bd8a
+      internalID: 1042912622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_149
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 762
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750bff956c5c82c4ca5710e33df47101
+      internalID: -444465550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_150
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 762
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f1c8a8526e1b4aba3051b319c84c9
+      internalID: -93126630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_151
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 762
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3cd795a08278d47b0c670af3441488
+      internalID: 917212005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_152
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 762
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c9ee1a519602c43b02ebd46df95c1b
+      internalID: 2050119400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_153
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 758
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a72b0e49e84bf47aa104e34ed005bd
+      internalID: 1321960410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_154
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 751
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e002275a48b7b4a995c8a6046715cd
+      internalID: -1025364357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_155
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 714
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d1036db03564c4da2207ca3f237a63
+      internalID: 890937067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_156
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 714
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bb6fe9a0faee44c97201fa222d03b8
+      internalID: -319323952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_157
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 714
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd4447adf0c279439f15b85e1fb8a56
+      internalID: -1136008399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_158
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 714
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00831446dc602c645ba97993f4b32f6a
+      internalID: -357144349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_159
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 714
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0154ce47a46d444fa8dc345a0333170
+      internalID: 1563718001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_160
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 715
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53729a7ebd388dd48a7a327e600281f8
+      internalID: -410440252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_161
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 714
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf4b78bd264344845aef83673ec05dc1
+      internalID: -376442865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_162
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 714
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73689558c766f240b78cc73e21e8b7e
+      internalID: 455773492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_163
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 716
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38ba5e12b2eb6a47b86c009650d7b94
+      internalID: -807637237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_164
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 653
+        width: 56
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 224a21b0e1797a147b7b5b95562da753
+      internalID: 1995775074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 714
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeda1ccc3b7af79499ec52fecebbe5ef
+      internalID: 551404532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_166
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 714
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eed28bec91646e4b84282a91ae43f4e
+      internalID: -1953039925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_167
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 653
+        width: 24
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c726511c1b1cbb49b67bb475d81316e
+      internalID: -640043109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_168
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 667
+        width: 62
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaae423c0ae0434fbc635ff518814c8
+      internalID: 1427681232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_169
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 674
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56f16b9efe2b0848add421e4f632921
+      internalID: 1632463726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_170
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 674
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e54ced4e4e535545be2cd5a77cc41ed
+      internalID: 549676821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_171
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 674
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb44fea38c5514459f5b8fba5d43543
+      internalID: -1937852712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_172
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 673
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eddcef101a2f184ab45f19217576bae
+      internalID: 1398075104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_173
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 650
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bf32b9cbb48a54bb171adbc617c0e0
+      internalID: -496727432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_174
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 686
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12da6687f06029b45975f0d9f453c1dc
+      internalID: -2112720724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_175
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 686
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bff6d5ea0e623b46b5c238f8201d1d9
+      internalID: -880545464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_176
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 659
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd2932f518d5d34b9c56cae9852190e
+      internalID: -596603701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_177
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 658
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9869191efdbb24428abeba106fdc70b
+      internalID: 111725864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_178
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 658
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c45fef444e646d4ba4afbf2a5ba6601
+      internalID: -519768252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_179
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 658
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd3ccb46c3157146b86efd1b28509c3
+      internalID: 1286485147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_180
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 658
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dffccd3a8c71ef47b882ff4bd91e949
+      internalID: -1175882384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_181
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 658
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91313c4d19ba9ad4f8240c5249291594
+      internalID: 1273808475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_182
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 658
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbc5f55d907c0947b15b2476335a7ad
+      internalID: 1908633949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_183
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 658
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4fb75e0c57bcf4e9f5818ecfc88606
+      internalID: 336750031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_184
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 671
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d534a54f0e8a18f44aa75b16e85b3944
+      internalID: 1484688803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_185
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 671
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc52297211457243bbbfa9d443ee28e
+      internalID: -108808041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_186
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 605
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e8b2b3dd6338440b793a37c5b8672f
+      internalID: 116994813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_187
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 606
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e938b648f8e04bb6ff78e51cf0b8a
+      internalID: -969013167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_188
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 657
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8395de23d8133e44849fb86850358ae
+      internalID: 1040831004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_189
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 657
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7431a7caaa651a4aaba9e211b3052d8
+      internalID: -1887067698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_190
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 568
+        width: 84
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7d541cfbdb6284bab64c7e957479fc
+      internalID: 1299192102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_191
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 606
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ca1fb32e7b7fc4e91669891e162ae4
+      internalID: -477082946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_192
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 606
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96d4519c336f140858615980c42c89
+      internalID: -2064690127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_193
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 564
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7b4c0bb7602264bb95cab4a72a86d5
+      internalID: 2093388570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_194
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 579
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85e64c16379e404b87f3f6e9dac9ce2
+      internalID: -981849798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_195
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e47a3acba08804d9644b81670b41a0
+      internalID: 2007546181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_196
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53858bc9218f514fbd682ea982b33d8
+      internalID: 1860316783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_197
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b94ca1f983da94a88015d45317705e
+      internalID: -123132436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_198
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549aaf72d08a5aa4fbe60970dcce896a
+      internalID: 775419530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_199
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5528171d5cd33684096a1d8c052c6292
+      internalID: -1064474412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_200
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae56e71fb7e50e4eb5db33f14fa2411
+      internalID: -1966414416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_201
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 602
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951c37ab3e494cd468ee86bd94354eb8
+      internalID: -1854452671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_202
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 602
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb86c235858d540939db1620e54107
+      internalID: -431800719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_203
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 603
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a829316e9e1575a4ba80061ab6d2ccc2
+      internalID: 214716831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_204
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 618
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f5d208574088d4fbf7542d03673b79
+      internalID: 566641143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_205
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 535
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fc47ef73daa74db0ce82dc41eb8e5
+      internalID: 486849171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_206
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 535
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50efb7ac0f0b7434ba244b0ed90a999b
+      internalID: 1836528579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_207
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 430
+        width: 18
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27f1ae76b4e0034494e0ea8c65b5df1
+      internalID: -1719693609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_208
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 551
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da87dfc3f12cb945aa6e801f465ffd6
+      internalID: -1175941651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_209
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 551
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89aa1156b19c4934c961afa341a808d7
+      internalID: -204001013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_210
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 509
+        width: 9
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d8a4c266a907b479fa4deaaf5b9156
+      internalID: -947653793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_211
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 530
+        width: 83
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b2ef8edcd6f9145a4a0cd4fb857241
+      internalID: -841001921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_212
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 497
+        width: 502
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ce50ff94bd7044ea513ce3fe3a0c44
+      internalID: 1553938555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_213
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 505
+        width: 60
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe375e1d91cac8f449484611a3ab0244
+      internalID: 1820974996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_214
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 506
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a73516eca3a8ef47be338c0b8665d0a
+      internalID: 1621263012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_215
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 535
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02e6b6ec41ff94f82c1b9ab616cb5c
+      internalID: 1780091563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_216
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 546
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eb6e93f9c86e24ba6bf77093c9f39d
+      internalID: -1827743498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_217
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 546
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1b98416563cca41a1970dd6c36543c
+      internalID: -996940592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_218
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 509
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b35e794a4b6225409dd0ca9a4021445
+      internalID: -1795648392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_219
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 509
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df6d44ade47df54d91d846cc2008d51
+      internalID: -588369084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_220
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 531
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5d7d484b165a468e03c5ad260ceff
+      internalID: 781445683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_221
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 531
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7810daa3f5902c47aa2e045d4ce30d6
+      internalID: -928605770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_222
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 511
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ed5e6ccf2cf2347a0990955aeda2c7
+      internalID: -1897272932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_223
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 511
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3967a52bf94e9204c8785a816f41760d
+      internalID: 178930690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_224
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 462
+        width: 86
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cc18dbae2df674d90f2e41cf0749b0
+      internalID: -637766928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_225
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 452
+        width: 103
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9202d942d5da30c4cbb95280f08f9555
+      internalID: -1926054773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_226
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 484
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6bbaf89eda8474e97f22632ec1ba2a
+      internalID: -764813639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_227
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 484
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66848f85853e50242a563db24b84019b
+      internalID: -2126933992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_228
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 453
+        width: 163
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aceecbec4f4c4eb4bb9391a6a0e38ccf
+      internalID: 2000625739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_229
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 458
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bfe72efb699a84e9d097fc23399ee7
+      internalID: 1345787101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_230
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 458
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44568ae0314d41849a7e4e14fd791c85
+      internalID: -348020171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_231
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 297
+        width: 126
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c4ab98e50e4a46b850915afbe833c
+      internalID: -6037878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_232
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 420
+        width: 329
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92fad31559499f49a45285fa9e25008
+      internalID: 754482716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_233
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 432
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a737c45dee3f12e479a9b722359f9262
+      internalID: -55092564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_234
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 432
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c826dd203eb344e44ab69239e4dceedf
+      internalID: -1620973531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_235
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 316
+        width: 80
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386eaaac59b136849bb4b4b5061a0bea
+      internalID: -2069186569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_236
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 316
+        width: 80
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eaaf1cc3e7ba845afb790a1ad48059
+      internalID: 1185184330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_237
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 384
+        width: 245
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7331461280080488efdb88b274780a
+      internalID: 1840047318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_238
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 406
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f0d7ae9bd1afa48b124935d4479df6
+      internalID: 648469871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_239
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 371
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcb6bcd1f6cffc42909ab95e75eb40a
+      internalID: 1009109972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_240
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 326
+        width: 120
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419c160c29aab2419b83d580015826d
+      internalID: 122669103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_241
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 363
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506cbd9bc84216e45b141e1a91ac8574
+      internalID: -684372939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_242
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 339
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a829148f3b5044db568d75fa953705
+      internalID: -653515935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_243
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 334
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3d6d18e0633c1429f10631012b1b0f
+      internalID: 83172711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_244
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 331
+        width: 278
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4747cb1f6a01cfd46a8bd2cb7928d262
+      internalID: 2084612443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_245
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 303
+        width: 82
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8857ddedd07093949888b0abde93a612
+      internalID: 613510757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_246
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 307
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78c1f478c108204e9228e5799e90df1
+      internalID: 271774836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_247
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 294
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1c4adda3ec078419446a570e47b610
+      internalID: 197081076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_248
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 294
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d2eccad1432754dac069fad9b06410
+      internalID: 1031264870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_249
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 293
+        width: 99
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065713a675712914697164aed3730a44
+      internalID: 1511542020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_250
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 295
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2484fb3eee5c91a4ca0bdea064b41700
+      internalID: -1950909522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_251
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 271
+        width: 94
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef83c50539f8ea40acf6785b1b81478
+      internalID: -1888823919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_252
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 254
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72669026d43350e46ad65bc0e2840eac
+      internalID: 2016091670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_253
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 468
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6c813ecda9df43abc40689df3f379
+      internalID: -1254145334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_254
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 250
+        width: 363
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342735ca3ddc2e5428e4f8d1076220f0
+      internalID: 1557086878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_255
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 189
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2c58f068b85641a1aa20a33d9a22b
+      internalID: -1409384168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_256
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 199
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50da024ecaeaeb44a6d7398541d943e
+      internalID: -934711812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_257
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 199
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3492211322ece304caffc1957ea17d07
+      internalID: -799169746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_258
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 199
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1725dbd90c19aa54b928418dbf96f536
+      internalID: 1961320225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_259
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 190
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902d0f3594b247f42a74f8ff157a3f13
+      internalID: 608258055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_260
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 190
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a52eae1c900fd4d82c3c7a72d753d5
+      internalID: 210348449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_261
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 192
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089254733463df74da0a1e27f9014a4a
+      internalID: -504204067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_262
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 190
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c904c08a35d80f94b844c7248b72d028
+      internalID: -93295904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_263
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 127
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7892457a2907d4281dce1c7c198b6a
+      internalID: -858666916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_264
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 197
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50651ec31acedcc47811305548aecc8e
+      internalID: 217595199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_265
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 468
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c2d095507a1224487ac4277af22e66
+      internalID: -2027670631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_266
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 184
+        width: 50
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a1c7ca490711d4dad117591d6b47fc
+      internalID: 1733182765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_267
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 184
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04976423696c64c44b13520bfc624204
+      internalID: -37883219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_268
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 30
+        width: 217
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f3aaf23c78dd14ea856eb147954ff8
+      internalID: -1898165297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_269
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 30
+        width: 217
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35816a0bca2600f43900b3cb6d7c9b82
+      internalID: -727960822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_270
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 58
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cc71c683835fa4f9bc6474d79cc409
+      internalID: -2070800727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HLDDZ_MainGame0_2x_271
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 21
+        width: 63
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c538a9d59a0930340bb27028143b1048
+      internalID: 21046652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HLDDZ_MainGame0_2x_0: -1176830738
+      HLDDZ_MainGame0_2x_1: 1443501158
+      HLDDZ_MainGame0_2x_10: -249760381
+      HLDDZ_MainGame0_2x_100: 1437413093
+      HLDDZ_MainGame0_2x_101: -1712734017
+      HLDDZ_MainGame0_2x_102: 982284247
+      HLDDZ_MainGame0_2x_103: -1651784064
+      HLDDZ_MainGame0_2x_104: -236834642
+      HLDDZ_MainGame0_2x_105: -1598802207
+      HLDDZ_MainGame0_2x_106: -1815909101
+      HLDDZ_MainGame0_2x_107: -21897015
+      HLDDZ_MainGame0_2x_108: 70199361
+      HLDDZ_MainGame0_2x_109: -616810355
+      HLDDZ_MainGame0_2x_11: 1082357500
+      HLDDZ_MainGame0_2x_110: -1335590490
+      HLDDZ_MainGame0_2x_111: 659623543
+      HLDDZ_MainGame0_2x_112: -922791347
+      HLDDZ_MainGame0_2x_113: -1550002145
+      HLDDZ_MainGame0_2x_114: 1650007495
+      HLDDZ_MainGame0_2x_115: 298284556
+      HLDDZ_MainGame0_2x_116: -322799214
+      HLDDZ_MainGame0_2x_117: -795115374
+      HLDDZ_MainGame0_2x_118: -1677282689
+      HLDDZ_MainGame0_2x_119: -1514472677
+      HLDDZ_MainGame0_2x_12: -58134757
+      HLDDZ_MainGame0_2x_120: -1870344807
+      HLDDZ_MainGame0_2x_121: -1984831747
+      HLDDZ_MainGame0_2x_122: -1647780496
+      HLDDZ_MainGame0_2x_123: -1209925802
+      HLDDZ_MainGame0_2x_124: -1293217663
+      HLDDZ_MainGame0_2x_125: -115003262
+      HLDDZ_MainGame0_2x_126: 1867737419
+      HLDDZ_MainGame0_2x_127: -731949288
+      HLDDZ_MainGame0_2x_128: 1840881181
+      HLDDZ_MainGame0_2x_129: -1225410661
+      HLDDZ_MainGame0_2x_13: 233484763
+      HLDDZ_MainGame0_2x_130: 897500903
+      HLDDZ_MainGame0_2x_131: 240342400
+      HLDDZ_MainGame0_2x_132: 1003200640
+      HLDDZ_MainGame0_2x_133: 1250981093
+      HLDDZ_MainGame0_2x_134: -2103462237
+      HLDDZ_MainGame0_2x_135: 378534618
+      HLDDZ_MainGame0_2x_136: -53374198
+      HLDDZ_MainGame0_2x_137: 1327607776
+      HLDDZ_MainGame0_2x_138: -1846829674
+      HLDDZ_MainGame0_2x_139: -240086112
+      HLDDZ_MainGame0_2x_14: 1084881142
+      HLDDZ_MainGame0_2x_140: 559964470
+      HLDDZ_MainGame0_2x_141: 2140462648
+      HLDDZ_MainGame0_2x_142: 1497422048
+      HLDDZ_MainGame0_2x_143: -1127409847
+      HLDDZ_MainGame0_2x_144: -1282967021
+      HLDDZ_MainGame0_2x_145: 1090985413
+      HLDDZ_MainGame0_2x_146: 938096931
+      HLDDZ_MainGame0_2x_147: -227872794
+      HLDDZ_MainGame0_2x_148: 1042912622
+      HLDDZ_MainGame0_2x_149: -444465550
+      HLDDZ_MainGame0_2x_15: 752110622
+      HLDDZ_MainGame0_2x_150: -93126630
+      HLDDZ_MainGame0_2x_151: 917212005
+      HLDDZ_MainGame0_2x_152: 2050119400
+      HLDDZ_MainGame0_2x_153: 1321960410
+      HLDDZ_MainGame0_2x_154: -1025364357
+      HLDDZ_MainGame0_2x_155: 890937067
+      HLDDZ_MainGame0_2x_156: -319323952
+      HLDDZ_MainGame0_2x_157: -1136008399
+      HLDDZ_MainGame0_2x_158: -357144349
+      HLDDZ_MainGame0_2x_159: 1563718001
+      HLDDZ_MainGame0_2x_16: 211126073
+      HLDDZ_MainGame0_2x_160: -410440252
+      HLDDZ_MainGame0_2x_161: -376442865
+      HLDDZ_MainGame0_2x_162: 455773492
+      HLDDZ_MainGame0_2x_163: -807637237
+      HLDDZ_MainGame0_2x_164: 1995775074
+      HLDDZ_MainGame0_2x_165: 551404532
+      HLDDZ_MainGame0_2x_166: -1953039925
+      HLDDZ_MainGame0_2x_167: -640043109
+      HLDDZ_MainGame0_2x_168: 1427681232
+      HLDDZ_MainGame0_2x_169: 1632463726
+      HLDDZ_MainGame0_2x_17: -1620871518
+      HLDDZ_MainGame0_2x_170: 549676821
+      HLDDZ_MainGame0_2x_171: -1937852712
+      HLDDZ_MainGame0_2x_172: 1398075104
+      HLDDZ_MainGame0_2x_173: -496727432
+      HLDDZ_MainGame0_2x_174: -2112720724
+      HLDDZ_MainGame0_2x_175: -880545464
+      HLDDZ_MainGame0_2x_176: -596603701
+      HLDDZ_MainGame0_2x_177: 111725864
+      HLDDZ_MainGame0_2x_178: -519768252
+      HLDDZ_MainGame0_2x_179: 1286485147
+      HLDDZ_MainGame0_2x_18: -982638458
+      HLDDZ_MainGame0_2x_180: -1175882384
+      HLDDZ_MainGame0_2x_181: 1273808475
+      HLDDZ_MainGame0_2x_182: 1908633949
+      HLDDZ_MainGame0_2x_183: 336750031
+      HLDDZ_MainGame0_2x_184: 1484688803
+      HLDDZ_MainGame0_2x_185: -108808041
+      HLDDZ_MainGame0_2x_186: 116994813
+      HLDDZ_MainGame0_2x_187: -969013167
+      HLDDZ_MainGame0_2x_188: 1040831004
+      HLDDZ_MainGame0_2x_189: -1887067698
+      HLDDZ_MainGame0_2x_19: -1016380933
+      HLDDZ_MainGame0_2x_190: 1299192102
+      HLDDZ_MainGame0_2x_191: -477082946
+      HLDDZ_MainGame0_2x_192: -2064690127
+      HLDDZ_MainGame0_2x_193: 2093388570
+      HLDDZ_MainGame0_2x_194: -981849798
+      HLDDZ_MainGame0_2x_195: 2007546181
+      HLDDZ_MainGame0_2x_196: 1860316783
+      HLDDZ_MainGame0_2x_197: -123132436
+      HLDDZ_MainGame0_2x_198: 775419530
+      HLDDZ_MainGame0_2x_199: -1064474412
+      HLDDZ_MainGame0_2x_2: -1414152929
+      HLDDZ_MainGame0_2x_20: -1710455049
+      HLDDZ_MainGame0_2x_200: -1966414416
+      HLDDZ_MainGame0_2x_201: -1854452671
+      HLDDZ_MainGame0_2x_202: -431800719
+      HLDDZ_MainGame0_2x_203: 214716831
+      HLDDZ_MainGame0_2x_204: 566641143
+      HLDDZ_MainGame0_2x_205: 486849171
+      HLDDZ_MainGame0_2x_206: 1836528579
+      HLDDZ_MainGame0_2x_207: -1719693609
+      HLDDZ_MainGame0_2x_208: -1175941651
+      HLDDZ_MainGame0_2x_209: -204001013
+      HLDDZ_MainGame0_2x_21: 1268065003
+      HLDDZ_MainGame0_2x_210: -947653793
+      HLDDZ_MainGame0_2x_211: -841001921
+      HLDDZ_MainGame0_2x_212: 1553938555
+      HLDDZ_MainGame0_2x_213: 1820974996
+      HLDDZ_MainGame0_2x_214: 1621263012
+      HLDDZ_MainGame0_2x_215: 1780091563
+      HLDDZ_MainGame0_2x_216: -1827743498
+      HLDDZ_MainGame0_2x_217: -996940592
+      HLDDZ_MainGame0_2x_218: -1795648392
+      HLDDZ_MainGame0_2x_219: -588369084
+      HLDDZ_MainGame0_2x_22: -1605169010
+      HLDDZ_MainGame0_2x_220: 781445683
+      HLDDZ_MainGame0_2x_221: -928605770
+      HLDDZ_MainGame0_2x_222: -1897272932
+      HLDDZ_MainGame0_2x_223: 178930690
+      HLDDZ_MainGame0_2x_224: -637766928
+      HLDDZ_MainGame0_2x_225: -1926054773
+      HLDDZ_MainGame0_2x_226: -764813639
+      HLDDZ_MainGame0_2x_227: -2126933992
+      HLDDZ_MainGame0_2x_228: 2000625739
+      HLDDZ_MainGame0_2x_229: 1345787101
+      HLDDZ_MainGame0_2x_23: -337616435
+      HLDDZ_MainGame0_2x_230: -348020171
+      HLDDZ_MainGame0_2x_231: -6037878
+      HLDDZ_MainGame0_2x_232: 754482716
+      HLDDZ_MainGame0_2x_233: -55092564
+      HLDDZ_MainGame0_2x_234: -1620973531
+      HLDDZ_MainGame0_2x_235: -2069186569
+      HLDDZ_MainGame0_2x_236: 1185184330
+      HLDDZ_MainGame0_2x_237: 1840047318
+      HLDDZ_MainGame0_2x_238: 648469871
+      HLDDZ_MainGame0_2x_239: 1009109972
+      HLDDZ_MainGame0_2x_24: 510376829
+      HLDDZ_MainGame0_2x_240: 122669103
+      HLDDZ_MainGame0_2x_241: -684372939
+      HLDDZ_MainGame0_2x_242: -653515935
+      HLDDZ_MainGame0_2x_243: 83172711
+      HLDDZ_MainGame0_2x_244: 2084612443
+      HLDDZ_MainGame0_2x_245: 613510757
+      HLDDZ_MainGame0_2x_246: 271774836
+      HLDDZ_MainGame0_2x_247: 197081076
+      HLDDZ_MainGame0_2x_248: 1031264870
+      HLDDZ_MainGame0_2x_249: 1511542020
+      HLDDZ_MainGame0_2x_25: -403483647
+      HLDDZ_MainGame0_2x_250: -1950909522
+      HLDDZ_MainGame0_2x_251: -1888823919
+      HLDDZ_MainGame0_2x_252: 2016091670
+      HLDDZ_MainGame0_2x_253: -1254145334
+      HLDDZ_MainGame0_2x_254: 1557086878
+      HLDDZ_MainGame0_2x_255: -1409384168
+      HLDDZ_MainGame0_2x_256: -934711812
+      HLDDZ_MainGame0_2x_257: -799169746
+      HLDDZ_MainGame0_2x_258: 1961320225
+      HLDDZ_MainGame0_2x_259: 608258055
+      HLDDZ_MainGame0_2x_26: -1910641955
+      HLDDZ_MainGame0_2x_260: 210348449
+      HLDDZ_MainGame0_2x_261: -504204067
+      HLDDZ_MainGame0_2x_262: -93295904
+      HLDDZ_MainGame0_2x_263: -858666916
+      HLDDZ_MainGame0_2x_264: 217595199
+      HLDDZ_MainGame0_2x_265: -2027670631
+      HLDDZ_MainGame0_2x_266: 1733182765
+      HLDDZ_MainGame0_2x_267: -37883219
+      HLDDZ_MainGame0_2x_268: -1898165297
+      HLDDZ_MainGame0_2x_269: -727960822
+      HLDDZ_MainGame0_2x_27: -681930953
+      HLDDZ_MainGame0_2x_270: -2070800727
+      HLDDZ_MainGame0_2x_271: 21046652
+      HLDDZ_MainGame0_2x_28: -424664147
+      HLDDZ_MainGame0_2x_29: -1746310936
+      HLDDZ_MainGame0_2x_3: -1903981092
+      HLDDZ_MainGame0_2x_30: -1444067583
+      HLDDZ_MainGame0_2x_31: 1126542868
+      HLDDZ_MainGame0_2x_32: 1575470863
+      HLDDZ_MainGame0_2x_33: -1647794299
+      HLDDZ_MainGame0_2x_34: 449520278
+      HLDDZ_MainGame0_2x_35: -1460993737
+      HLDDZ_MainGame0_2x_36: 1053609795
+      HLDDZ_MainGame0_2x_37: -1353649915
+      HLDDZ_MainGame0_2x_38: -839499439
+      HLDDZ_MainGame0_2x_39: 868639856
+      HLDDZ_MainGame0_2x_4: 909644254
+      HLDDZ_MainGame0_2x_40: -633482346
+      HLDDZ_MainGame0_2x_41: -900829485
+      HLDDZ_MainGame0_2x_42: -1680999682
+      HLDDZ_MainGame0_2x_43: 1353590569
+      HLDDZ_MainGame0_2x_44: 536323074
+      HLDDZ_MainGame0_2x_45: 2031105914
+      HLDDZ_MainGame0_2x_46: -601043733
+      HLDDZ_MainGame0_2x_47: -1960012425
+      HLDDZ_MainGame0_2x_48: 601170458
+      HLDDZ_MainGame0_2x_49: 1185932011
+      HLDDZ_MainGame0_2x_5: -1986030090
+      HLDDZ_MainGame0_2x_50: 1855537687
+      HLDDZ_MainGame0_2x_51: -399833812
+      HLDDZ_MainGame0_2x_52: -557645161
+      HLDDZ_MainGame0_2x_53: 1466227797
+      HLDDZ_MainGame0_2x_54: 803537669
+      HLDDZ_MainGame0_2x_55: -1887599532
+      HLDDZ_MainGame0_2x_56: 296331418
+      HLDDZ_MainGame0_2x_57: 188282995
+      HLDDZ_MainGame0_2x_58: 126146033
+      HLDDZ_MainGame0_2x_59: 1584216785
+      HLDDZ_MainGame0_2x_6: -1126027565
+      HLDDZ_MainGame0_2x_60: 39967691
+      HLDDZ_MainGame0_2x_61: -236510579
+      HLDDZ_MainGame0_2x_62: 667651596
+      HLDDZ_MainGame0_2x_63: -228777433
+      HLDDZ_MainGame0_2x_64: -1304736452
+      HLDDZ_MainGame0_2x_65: 867700730
+      HLDDZ_MainGame0_2x_66: -1057493704
+      HLDDZ_MainGame0_2x_67: -382976127
+      HLDDZ_MainGame0_2x_68: 844261348
+      HLDDZ_MainGame0_2x_69: 1923705978
+      HLDDZ_MainGame0_2x_7: 1774656325
+      HLDDZ_MainGame0_2x_70: -1013850164
+      HLDDZ_MainGame0_2x_71: 531202308
+      HLDDZ_MainGame0_2x_72: -62775468
+      HLDDZ_MainGame0_2x_73: 378949672
+      HLDDZ_MainGame0_2x_74: 1131567587
+      HLDDZ_MainGame0_2x_75: 1907704506
+      HLDDZ_MainGame0_2x_76: -748520482
+      HLDDZ_MainGame0_2x_77: 1113498072
+      HLDDZ_MainGame0_2x_78: -1670482118
+      HLDDZ_MainGame0_2x_79: 697513396
+      HLDDZ_MainGame0_2x_8: -747771643
+      HLDDZ_MainGame0_2x_80: 138985965
+      HLDDZ_MainGame0_2x_81: -1467507311
+      HLDDZ_MainGame0_2x_82: -1902582744
+      HLDDZ_MainGame0_2x_83: 1025722151
+      HLDDZ_MainGame0_2x_84: 1523333880
+      HLDDZ_MainGame0_2x_85: -125413027
+      HLDDZ_MainGame0_2x_86: -493989938
+      HLDDZ_MainGame0_2x_87: -7899248
+      HLDDZ_MainGame0_2x_88: -443136836
+      HLDDZ_MainGame0_2x_89: -562858521
+      HLDDZ_MainGame0_2x_9: 741332821
+      HLDDZ_MainGame0_2x_90: 2146197259
+      HLDDZ_MainGame0_2x_91: 1921275430
+      HLDDZ_MainGame0_2x_92: 1253256642
+      HLDDZ_MainGame0_2x_93: 243856046
+      HLDDZ_MainGame0_2x_94: 1302546122
+      HLDDZ_MainGame0_2x_95: 1135686142
+      HLDDZ_MainGame0_2x_96: -676114774
+      HLDDZ_MainGame0_2x_97: 1002882017
+      HLDDZ_MainGame0_2x_98: -1994089655
+      HLDDZ_MainGame0_2x_99: 1540685028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
