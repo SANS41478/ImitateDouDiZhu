@@ -76,4 +76,19 @@ public class CardUI : MonoBehaviour
             transform.localPosition = - Vector3.up * 8 * index + Vector3.left * 8 * index;
         }
     }
+    /// <summary>
+    /// 初始化数据
+    /// </summary>>
+    public void OnSpawn() 
+    {
+        image = GetComponent<Image>();
+        btn = GetComponent<Button>();
+    }
+    public void OnDespawn()
+    {
+        card = null;
+        isSelected = false;
+        image.sprite = null;
+        btn.onClick.RemoveAllListeners();
+    }
 }

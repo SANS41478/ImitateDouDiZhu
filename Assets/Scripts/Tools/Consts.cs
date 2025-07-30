@@ -24,16 +24,18 @@ public enum ViewEvent
 public enum CardType 
 {
     None,
-    Single, //单 1
-    Double, //对儿 2
-    Straight, //顺子 5 - 12
-    DoubleStraight, //双顺 >= 6
-    TripleStraight, //飞机 >= 6 
-    Three, //三不带 3
-    ThreeAndOne, //三带一 4
-    ThreeAndTwo, //三代二 5
-    Boom, //炸弹 4
-    JokerBoom //王炸 2
+    Single, //单 
+    Double, //对子
+    Straight, //顺子 
+    DoubleStraight, //双顺 
+    TripleStraight, //三顺
+    ThreeWithoutPair, //三不带 
+    TripleWithSingle, //三带一 
+    ThreeWithAPair, //三代二 
+    PlaneWithSingleWings,// 飞机带单翅膀
+    PlaneWithPairWings,// 飞机带双翅膀
+    Bomb, //炸弹 4
+    JokerBomb //王炸 2
 }
 ///<summary>
 ///牌的大小
