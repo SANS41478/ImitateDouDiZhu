@@ -11,10 +11,236 @@ public class Rulers : MonoBehaviour
     /// <param name="cards">传入的牌</param>
     /// <param name="type">出牌类型</param>
     /// <returns>是否可以出牌</returns>
-    //public static bool CanPop()
-    //{
+    public static bool CanPop(List<Card> cards,out CardType type)
+    {
+        type = CardType.None;
+        bool can = false;
+        switch (cards.Count) 
+        {
+            case 1:
+                can = IsSingle(cards);
+                type = CardType.Single;
+                break;
+            case 2:
+                if( IsDouble(cards))
+                {
+                    can = true;
+                    type = CardType.Double;
+                }
+                else if (IsJokerBomb(cards))
+                {
+                    can = true;
+                    type = CardType.JokerBomb;
+                }
+                break;
+            case 3:
+                if (IsThreeWithoutPair(cards))
+                {
+                    can = true;
+                    type = CardType.ThreeWithoutPair;
+                }
+                break;
 
-    //}
+            case 4:
+                if (IsBomb(cards))
+                {
+                    can = true;
+                    type = CardType.Bomb;
+                }
+                else if (IsTripleWithSingle(cards))
+                {
+                    can = true;
+                    type = CardType.TripleWithSingle;
+                }
+                break;
+
+            case 5:
+                if (IsStraight(cards))
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsThreeWithAPair(cards))
+                {
+                    can = true;
+                    type = CardType.ThreeWithAPair;
+                }
+                break;
+
+            case 6:
+                if (IsStraight(cards))
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                else if (IsTripleStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.TripleStraight;
+                }
+                break;
+
+            case 7:
+                if (IsStraight(cards)) 
+                {
+                    can = true;
+                    type= CardType.Straight;
+
+                }
+                break;
+
+            case 8:
+                if (IsStraight(cards))
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsDoubleStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                else if (IsPlaneWithSingleWings(cards))
+                {
+                    can = true;
+                    type = CardType.PlaneWithSingleWings;
+                }
+                break;
+
+            case 9:
+                if (IsStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsTripleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.TripleStraight;
+                }
+                break;
+
+            case 10:
+                if (IsStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                else if (IsPlaneWithPairWings(cards))
+                {
+                    can = true;
+                    type = CardType.PlaneWithPairWings;
+                }
+                break;
+
+            case 11:
+                if (IsStraight(cards))
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                break;
+
+            case 12:
+                if (IsStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.Straight;
+                }
+                else if (IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                else if(IsTripleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.TripleStraight;
+                }
+                else if (IsPlaneWithSingleWings(cards))
+                {
+                    can = true;
+                    type = CardType.PlaneWithSingleWings;
+                }
+
+                break;
+
+            case 13:
+                break;
+
+            case 14:
+                if (IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                break;
+
+            case 15:
+                if (IsTripleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.TripleStraight;
+                }
+                else if(IsPlaneWithPairWings(cards))
+                {
+                    can = true;
+                    type = CardType.PlaneWithPairWings;
+                }
+                break;
+
+            case 16:
+                if (IsDoubleStraight(cards)) 
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                break;
+
+            case 17:
+                break;
+
+            case 18:
+                if(IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                else if (IsTripleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.TripleStraight;
+                }
+                break;
+
+            case 19:
+                break;
+
+            case 20:
+                if(IsDoubleStraight(cards))
+                {
+                    can = true;
+                    type = CardType.DoubleStraight;
+                }
+                break;
+            default:
+                // 其他情况不合法
+                can = false;
+                break;
+
+        }
+        return can;
+    }
     //单牌
     public static bool IsSingle(List<Card> cards)
     {

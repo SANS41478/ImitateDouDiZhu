@@ -41,4 +41,25 @@ public static class Tool
         gameObject.name = panelType.ToString();
         return gameObject;
     }
+    /// <summary>
+    /// 对牌进行排序
+    /// </summary>
+    /// <param name="cards">要排序的牌</param>"
+    /// <param name="asc">是否升序排序</param>"
+    public static void Sort(List<Card> cards, bool asc)
+    {
+        cards.Sort((Card a, Card b) =>
+        {
+            if (asc)
+                return a.Cardweight.CompareTo(b.Cardweight);
+            else
+                return -a.Cardweight.CompareTo(b.Cardweight);
+        });
+    }
+    /// <summary>
+    /// 获取牌的大小
+    /// </summary>
+    /// <param name="card">牌的大小</param>"
+    /// <param name="cardTyoe">出牌类型</param>
+    
 }

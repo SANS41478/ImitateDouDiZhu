@@ -673,6 +673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3828395625901059556}
+  - component: {fileID: 4516958253832904823}
   m_Layer: 5
   m_Name: Right
   m_TagString: Untagged
@@ -703,6 +704,21 @@ RectTransform:
   m_AnchoredPosition: {x: 409, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &4516958253832904823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625886678725664016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e08ae62c244384c9500d5ffacdeb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 3840798528256431557}
+  score: {fileID: 321059027020845149}
+  shoupai: {fileID: 1438025206404871007}
 --- !u!1 &2946934916875820859
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,6 +1105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3535031155210906857}
+  - component: {fileID: 6251565225148838702}
   m_Layer: 5
   m_Name: Left
   m_TagString: Untagged
@@ -1119,6 +1136,21 @@ RectTransform:
   m_AnchoredPosition: {x: -403, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6251565225148838702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3730667792721710680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e08ae62c244384c9500d5ffacdeb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 3735685358578761234}
+  score: {fileID: 1372226563870379376}
+  shoupai: {fileID: 9089046764542614413}
 --- !u!1 &3915364990149596149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,6 +1678,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7941779153187617054}
+  - component: {fileID: 374936286256818098}
   m_Layer: 5
   m_Name: Player
   m_TagString: Untagged
@@ -1676,6 +1709,21 @@ RectTransform:
   m_AnchoredPosition: {x: -314, y: -194}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &374936286256818098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6137842075156187455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e08ae62c244384c9500d5ffacdeb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 1152825216321952149}
+  score: {fileID: 4290073790326467849}
+  shoupai: {fileID: 5620630143756793748}
 --- !u!1 &6306500820491307705
 GameObject:
   m_ObjectHideFlags: 0

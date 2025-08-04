@@ -461,7 +461,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 513098517}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -1085,6 +1085,26 @@ PrefabInstance:
     - target: {fileID: 4224315888587566535, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
       propertyPath: m_Name
       value: InteractionPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802345181270674656, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
+      propertyPath: m_Interactable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802345181270674656, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
+      propertyPath: m_Colors.m_NormalColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802345181270674656, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
+      propertyPath: m_Colors.m_NormalColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802345181270674656, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
+      propertyPath: m_Colors.m_NormalColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7802345181270674656, guid: ab4b924e08332a54b816ff1e42c4e139, type: 3}
+      propertyPath: m_Colors.m_NormalColor.r
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
