@@ -91,4 +91,8 @@ public class CardUI : MonoBehaviour
         image.sprite = null;
         btn.onClick.RemoveAllListeners();
     }
+    public void Destroy()
+    {   
+        Lean.Pool.LeanPool.Despawn(gameObject); //使用LeanPool进行对象池回收
+    }
 }

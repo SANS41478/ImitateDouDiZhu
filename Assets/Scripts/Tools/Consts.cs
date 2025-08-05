@@ -88,3 +88,10 @@ public enum Identity
     Farmer, //农民
     Landlord //地主
 }
+public enum ShowPoint
+{
+    Desk, //桌面
+    Player, //玩家
+    Right, //右边
+    Left //左边
+}

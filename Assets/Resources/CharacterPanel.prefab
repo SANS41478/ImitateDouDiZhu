@@ -1630,6 +1630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7457044760409918377}
   - component: {fileID: 4888844842619397164}
+  - component: {fileID: 6633701621962669344}
   m_Layer: 5
   m_Name: CharacterPanel
   m_TagString: Untagged
@@ -1669,6 +1670,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5938129523061768011}
   m_CullTransparentMesh: 1
+--- !u!114 &6633701621962669344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5938129523061768011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e08ae62c244384c9500d5ffacdeb1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image: {fileID: 0}
+  score: {fileID: 0}
+  shoupai: {fileID: 0}
 --- !u!1 &6137842075156187455
 GameObject:
   m_ObjectHideFlags: 0

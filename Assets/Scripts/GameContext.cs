@@ -13,13 +13,17 @@ public class GameContext : MVCSContext
     {
         //model
         injectionBinder.Bind<IntergrationModel>().To<IntergrationModel>().ToSingleton();
+        injectionBinder.Bind<CardModel>().To<CardModel>().ToSingleton();
+        injectionBinder.Bind<RoundModel>().To<RoundModel>().ToSingleton();
+
         //command
         commandBinder.Bind(ContextEvent.START).To<StartCommand>();
         commandBinder.Bind(CommandEvent.ChangeMulitiple).To<ChangeMulitipleCommand>();
         //view
         mediationBinder.Bind<StartView>().To<StartMediator>();
-        mediationBinder.Bind<InteractionView>().To<InteractionView>();
-        
+        mediationBinder.Bind<InteractionView>().To<InteractionMediator>();
+        mediationBinder.Bind<CharacterView>().To<CharacterMediator>();
+
     }
 }
 
