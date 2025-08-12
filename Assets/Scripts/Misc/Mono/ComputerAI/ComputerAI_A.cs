@@ -10,107 +10,107 @@ public class ComputerAI_A : MonoBehaviour
     /// <summary>
     /// 要出的牌
     /// </summary>
-    public List<Card> selecCards = new List<Card>();
+    public List<Card> selectCards = new List<Card>();
 
-    public CardType currType = CardType.None;
+    private CardType currType = CardType.None;
 
     public void SmartSelectCards(List<Card> cards, CardType cardType, int weight, int length, bool isBiggest)
     {
         cardType = isBiggest ? CardType.None : cardType;
         currType = cardType;
-        selecCards.Clear();
+        selectCards.Clear();
 
         switch (cardType)
         {
             case CardType.None:
                 //随机出牌
-                selecCards = FindSmallestCards(cards);
+                selectCards = FindSmallestCards(cards);
                 break;
             case CardType.Single:
-                selecCards = FindSingle(cards, weight);
+                selectCards = FindSingle(cards, weight);
                 break;
             case CardType.Double:
-                selecCards = FindDouble(cards, weight);
+                selectCards = FindDouble(cards, weight);
                 break;
             case CardType.Straight:
-                selecCards = FindStraight(cards, weight, length);
-                if (selecCards.Count == 0)
+                selectCards = FindStraight(cards, weight, length);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindBomb(cards, -1);
+                    selectCards = FindBomb(cards, -1);
                     currType = CardType.Bomb;
-                    if (selecCards.Count == 0)
+                    if (selectCards.Count == 0)
                     {
-                        selecCards = FindJokerBoom(cards);
+                        selectCards = FindJokerBoom(cards);
                         currType = CardType.JokerBomb;
                     }
                 }
                 break;
             case CardType.DoubleStraight:
-                selecCards = FindDoubleStraight(cards, weight, length);
-                if (selecCards.Count == 0)
+                selectCards = FindDoubleStraight(cards, weight, length);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindBomb(cards, -1);
+                    selectCards = FindBomb(cards, -1);
                     currType = CardType.Bomb;
-                    if (selecCards.Count == 0)
+                    if (selectCards.Count == 0)
                     {
-                        selecCards = FindJokerBoom(cards);
+                        selectCards = FindJokerBoom(cards);
                         currType = CardType.JokerBomb;
                     }
                 }
                 break;
             case CardType.TripleStraight:
-                selecCards = FindTripleStraight(cards, weight, length);
-                if (selecCards.Count == 0)
+                selectCards = FindTripleStraight(cards, weight, length);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindBomb(cards, -1);
+                    selectCards = FindBomb(cards, -1);
                     currType = CardType.Bomb;
-                    if (selecCards.Count == 0)
+                    if (selectCards.Count == 0)
                     {
-                        selecCards = FindJokerBoom(cards);
+                        selectCards = FindJokerBoom(cards);
                         currType = CardType.JokerBomb;
                     }
                 }
                 break;
             case CardType.ThreeWithoutPair:
-                selecCards = FindTripleOnly(cards, weight);
+                selectCards = FindTripleOnly(cards, weight);
                 break;
             case CardType.TripleWithSingle:
-                selecCards = FindThreeWithSingle(cards, weight);
+                selectCards = FindThreeWithSingle(cards, weight);
                 break;
             case CardType.ThreeWithAPair:
-                selecCards = FindThreeWithPair(cards, weight);
+                selectCards = FindThreeWithPair(cards, weight);
                 break;
             case CardType.PlaneWithSingleWings:
-                selecCards = FindPlaneWithSingleWings(cards, weight, length);
-                if (selecCards.Count == 0)
+                selectCards = FindPlaneWithSingleWings(cards, weight, length);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindBomb(cards, -1);
+                    selectCards = FindBomb(cards, -1);
                     currType = CardType.Bomb;
-                    if (selecCards.Count == 0)
+                    if (selectCards.Count == 0)
                     {
-                        selecCards = FindJokerBoom(cards);
+                        selectCards = FindJokerBoom(cards);
                         currType = CardType.JokerBomb;
                     }
                 }
                 break;
             case CardType.PlaneWithPairWings:
-                selecCards = FindTripleStraight(cards, weight, length);
-                if (selecCards.Count == 0)
+                selectCards = FindTripleStraight(cards, weight, length);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindBomb(cards, -1);
+                    selectCards = FindBomb(cards, -1);
                     currType = CardType.Bomb;
-                    if (selecCards.Count == 0)
+                    if (selectCards.Count == 0)
                     {
-                        selecCards = FindJokerBoom(cards);
+                        selectCards = FindJokerBoom(cards);
                         currType = CardType.JokerBomb;
                     }
                 }
                 break;
             case CardType.Bomb:
-                selecCards = FindBomb(cards, weight);
-                if (selecCards.Count == 0)
+                selectCards = FindBomb(cards, weight);
+                if (selectCards.Count == 0)
                 {
-                    selecCards = FindJokerBoom(cards);
+                    selectCards = FindJokerBoom(cards);
                     currType = CardType.JokerBomb;
                 }
                 break;

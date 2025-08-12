@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerControl : CharacterBase
 {
     public CharacterUI characterUI;
-    Identity Identity;
+    Identity identity;
 
-    public Identity Identity1 
+    public Identity Identity
     {
         get 
         {
