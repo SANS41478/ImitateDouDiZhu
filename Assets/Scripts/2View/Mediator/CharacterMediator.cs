@@ -1,19 +1,39 @@
+using strange.extensions.dispatcher.eventdispatcher.api;
 using strange.extensions.mediation.impl;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMediator : Mediator
+public class CharacterMediator : EventMediator
 {
-    // Start is called before the first frame update
-    void Start()
+    [Inject]
+    public CharacterView view { get; set; }
+    override public void OnRegister()
     {
-        
+        view.Init();
+        dispatcher.AddListener(ViewEvent.FaPai, OnFaPai);
+        dispatcher.AddListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
     }
-
-    // Update is called once per frame
-    void Update()
+    override public void OnRemove()
     {
-        
+        dispatcher.RemoveListener(ViewEvent.FaPai, OnFaPai);
+        dispatcher.RemoveListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
+
+    }
+    private void OnCompleteFaPai()
+    {
+        view.ComputerLeftControl.Sort(true);
+        view.ComputerRightControl.Sort(true);
+        view.DeskControl.Sort(true);
+    }
+    /// <summary>
+    /// ¥¶¿Ì∑¢≈∆
+    /// </summary>
+    /// <param name="evt"></param>
+    private void OnFaPai(IEvent evt)
+    {
+        FaPaiArg e = (FaPaiArg)evt.data;
+        view.AddCard(e.cType, e.card, e.isSlect, ShowPoint.Desk);
     }
 }

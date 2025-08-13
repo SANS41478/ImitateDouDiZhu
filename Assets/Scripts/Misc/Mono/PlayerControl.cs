@@ -11,11 +11,11 @@ public class PlayerControl : CharacterBase
     {
         get 
         {
-            return Identity;
+            return identity;
         }
         set 
         {
-            Identity = value;
+            identity = value;
             characterUI.SetIdentity(value);
         }
     }

@@ -52,7 +52,7 @@ public class CardModel
     /// 最开始发牌
     /// </summary>>
     ///<param name="sendTo">发给谁</param>
-    public Card DealCard(CharacterType sendTo)
+    public Card FaPai(CharacterType sendTo)
     {
         if (CardLibrary.Count == 0)
         {

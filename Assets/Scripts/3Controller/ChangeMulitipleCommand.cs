@@ -10,5 +10,7 @@ public class ChangeMulitipleCommand : EventCommand
     public override void Execute()
     {
         IntegrationModel.Mulitiple*=(int)evt.data;
+        Tool.CreatedPanel(PanelType.CharacterPanel);
+        Tool.CreatedPanel(PanelType.InteractionPanel);
     }
 }

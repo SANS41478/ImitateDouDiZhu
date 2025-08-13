@@ -12,7 +12,8 @@ public class ComputerAI_A : MonoBehaviour
     /// </summary>
     public List<Card> selectCards = new List<Card>();
 
-    private CardType currType = CardType.None;
+    [NonSerialized]
+    public CardType currType = CardType.None;
 
     public void SmartSelectCards(List<Card> cards, CardType cardType, int weight, int length, bool isBiggest)
     {

@@ -51,7 +51,7 @@ public class CharacterView : View
     /// 添加三张地主牌
     /// </summary>
     /// <param name="cType"></param>
-    public void DealThreeCard(CharacterType cType)
+    public void FaDiZhuPai(CharacterType cType)
     {
         Card card = null;
         switch (cType)

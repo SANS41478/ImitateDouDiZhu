@@ -9,13 +9,18 @@ public class Consts
 public enum PanelType 
 {
     StartPanel,
+    CharacterPanel, //角色选择面板
+    InteractionPanel, //积分面板
 }
 public enum CommandEvent 
 {
     ChangeMulitiple, //改变倍数
+    RequestPlay,//请求开始游戏
 }
 public enum ViewEvent 
 {
+    FaPai,
+    CompleteFaPai,
 
 }
 /// <summary>

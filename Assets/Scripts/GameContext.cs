@@ -19,6 +19,8 @@ public class GameContext : MVCSContext
         //command
         commandBinder.Bind(ContextEvent.START).To<StartCommand>();
         commandBinder.Bind(CommandEvent.ChangeMulitiple).To<ChangeMulitipleCommand>();
+        commandBinder.Bind(CommandEvent.RequestPlay).To<RequestPlayCommand>();
+
         //view
         mediationBinder.Bind<StartView>().To<StartMediator>();
         mediationBinder.Bind<InteractionView>().To<InteractionMediator>();

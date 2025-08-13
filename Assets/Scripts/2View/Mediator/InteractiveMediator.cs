@@ -1,19 +1,32 @@
 using strange.extensions.mediation.impl;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractionMediator : Mediator
+public class InteractionMediator : EventMediator
 {
-    // Start is called before the first frame update
-    void Start()
+    [Inject]
+    public InteractionView InteractionView { get; set; }
+
+    [Inject]
+    public RoundModel RoundModel { get; set; }
+    override public void OnRegister()
     {
-        
+
+        InteractionView.Play.onClick.AddListener(OnPlayClick);
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnPlayClick()
     {
-        
+        dispatcher.Dispatch(CommandEvent.RequestPlay);
+        InteractionView.DeactiveAll();
+    }
+
+    override public void OnRemove()
+    {
+        InteractionView.Play.onClick.RemoveListener(OnPlayClick);
+
     }
 }
