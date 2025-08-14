@@ -7,7 +7,7 @@ public class CardUI : MonoBehaviour
     Card card;
     Image image;
     bool isSelected;
-    Button btn;
+    LearnButton btn;
     public Card Card
     {
         get
@@ -82,8 +82,34 @@ public class CardUI : MonoBehaviour
     public void OnSpawn() 
     {
         image = GetComponent<Image>();
-        btn = GetComponent<Button>();
+        btn = GetComponent<LearnButton>();
+        btn.PressedBtn += Btn_PressedBtn;
+        btn.HighlightedBtn += Btn_HighlightedBtn;
     }
+    private void Btn_HighlightedBtn()
+    {
+        if (Input.GetMouseButton(1))
+        {
+
+            if (card.BelongTo == CharacterType.Player)
+            {
+                IsSelected = !IsSelected;
+                //Sound.Instance.PlayEffect(Consts.Select);
+
+            }
+        }
+
+    }
+
+    private void Btn_PressedBtn()
+    {
+        if (card.BelongTo == CharacterType.Player)
+        {
+            IsSelected = !IsSelected;
+            //Sound.Instance.PlayEffect(Consts.Select);
+        }
+    }
+
     public void OnDespawn()
     {
         card = null;

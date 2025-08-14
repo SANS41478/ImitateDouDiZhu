@@ -17,6 +17,7 @@ public class RequestPlayCommand : EventCommand
         CardModel.Shuffle();
         DeskControl.StartCoroutine(DealCard());
 
+
     }
 
     IEnumerator DealCard()
@@ -38,10 +39,15 @@ public class RequestPlayCommand : EventCommand
         {
             FaPai(CharacterType.Desk);
         }
-
+        yield return null; // 等一帧
         CardUI[] cardUIs = DeskControl.GetComponentsInChildren<CardUI>();
+        Debug.Log("找到的 CardUI 数量：" + cardUIs.Length);
         foreach (var ui in cardUIs)
+        {
+            Debug.Log(ui.ToString());
+
             ui.SetImageAgain();
+        }
 
         //发牌结束
         dispatcher.Dispatch(ViewEvent.CompleteFaPai);
@@ -60,7 +66,13 @@ public class RequestPlayCommand : EventCommand
             cType = cType,
             isSlect = false
         };
-        dispatcher.Dispatch(ViewEvent.FaPai, e);
+        DeskControl.StartCoroutine(DelayDispatch());
+
+        IEnumerator DelayDispatch()
+        {
+            yield return null; // 等一帧
+            dispatcher.Dispatch(ViewEvent.FaPai,e);
+        }
 
     }
 }
