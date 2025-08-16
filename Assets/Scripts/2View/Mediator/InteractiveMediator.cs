@@ -18,6 +18,7 @@ public class InteractionMediator : EventMediator
         InteractionView.Play.onClick.AddListener(OnPlayClick);
         InteractionView.Grab.onClick.AddListener(OnGrabDiZhu);
         InteractionView.DisGrab.onClick.AddListener(OnDisGrab);
+        InteractionView.Deal.onClick.AddListener(OnDealClick);
 
         dispatcher.AddListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
         RoundModel.PlayerHandler += RoundModel_PlayerHandler;
@@ -29,9 +30,16 @@ public class InteractionMediator : EventMediator
         InteractionView.Play.onClick.RemoveListener(OnPlayClick);
         InteractionView.Grab.onClick.RemoveListener(OnGrabDiZhu);
         InteractionView.DisGrab.onClick.RemoveListener(OnDisGrab);
+        InteractionView.Deal.onClick.RemoveListener(OnDealClick);
+
         dispatcher.RemoveListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
         RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
 
+    }
+
+    private void OnDealClick()
+    {
+        dispatcher.Dispatch(ViewEvent.RequestDeal);
     }
 
     private void RoundModel_PlayerHandler(bool canClick)

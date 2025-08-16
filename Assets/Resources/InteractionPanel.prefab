@@ -684,8 +684,8 @@ MonoBehaviour:
   Play: {fileID: 7050166172976394660}
   Grab: {fileID: 6016205704073978442}
   DisGrab: {fileID: 692231800321786839}
-  Deal: {fileID: 7802345181270674656}
-  Pass: {fileID: 372341514834967357}
+  Deal: {fileID: 372341514834967357}
+  Pass: {fileID: 7802345181270674656}
 --- !u!1 &4396716881998299602
 GameObject:
   m_ObjectHideFlags: 0
