@@ -20,9 +20,9 @@ public class InteractionMediator : EventMediator
         InteractionView.DisGrab.onClick.AddListener(OnDisGrab);
 
         dispatcher.AddListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
+        RoundModel.PlayerHandler += RoundModel_PlayerHandler;
 
     }
-
 
     override public void OnRemove()
     {
@@ -30,8 +30,16 @@ public class InteractionMediator : EventMediator
         InteractionView.Grab.onClick.RemoveListener(OnGrabDiZhu);
         InteractionView.DisGrab.onClick.RemoveListener(OnDisGrab);
         dispatcher.RemoveListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
+        RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
 
     }
+
+    private void RoundModel_PlayerHandler(bool canClick)
+    {
+        InteractionView.ChuPai(canClick);
+        Debug.Log("InteractionMediator: " + canClick);
+    }
+
     private void OnDisGrab()
     {
         InteractionView.DeactiveAll();

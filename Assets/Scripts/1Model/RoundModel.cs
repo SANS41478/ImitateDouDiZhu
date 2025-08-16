@@ -12,7 +12,7 @@ public class RoundModel
     public bool isWin = false;
 
     public static event Action<bool> PlayerHandler;
-    //public static event Action<ComputerSmartArgs> ComputerHandler;
+    public static event Action<ComputerSmartArgs> ComputerHandler;
 
     int currentWeight;
     int currentLength;
@@ -127,10 +127,24 @@ public class RoundModel
         if (cType == CharacterType.Player)
         {
             //玩家出牌
+            if (PlayerHandler != null)
+                PlayerHandler(BiggestCharacter != CharacterType.Player);
         }
         else
         {
             //电脑出牌
+            if (ComputerHandler != null)
+            {
+                ComputerSmartArgs e = new ComputerSmartArgs()
+                {
+                    CardType = this.CurrentType,
+                    Length = this.CurrentLength,
+                    Weight = this.CurrentWeight,
+                    IsBiggest = this.BiggestCharacter,
+                    CharacterType = this.CurrentCharacter
+                };
+                ComputerHandler(e);
+            }
         }
     }
     /// <summary>

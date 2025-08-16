@@ -43,8 +43,6 @@ public class RequestPlayCommand : EventCommand
         CardUI[] cardUIs = DeskControl.GetComponentsInChildren<CardUI>();
         foreach (var ui in cardUIs)
         {
-            Debug.Log(ui.ToString());
-
             ui.SetImageAgain();
         }
 
