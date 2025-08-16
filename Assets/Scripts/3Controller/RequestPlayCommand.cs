@@ -41,7 +41,6 @@ public class RequestPlayCommand : EventCommand
         }
         yield return null; // 等一帧
         CardUI[] cardUIs = DeskControl.GetComponentsInChildren<CardUI>();
-        Debug.Log("找到的 CardUI 数量：" + cardUIs.Length);
         foreach (var ui in cardUIs)
         {
             Debug.Log(ui.ToString());

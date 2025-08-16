@@ -14,12 +14,22 @@ public class CharacterMediator : EventMediator
         view.Init();
         dispatcher.AddListener(ViewEvent.FaPai, OnFaPai);
         dispatcher.AddListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
+        dispatcher.AddListener(ViewEvent.FaDiZhu,OnFaDiZhu);
     }
+
+
+
     override public void OnRemove()
     {
         dispatcher.RemoveListener(ViewEvent.FaPai, OnFaPai);
         dispatcher.RemoveListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
+        dispatcher.RemoveListener(ViewEvent.FaDiZhu, OnFaDiZhu);
 
+    }
+    private void OnFaDiZhu(IEvent evt)
+    {
+        GrabAndDisGrabArg e = (GrabAndDisGrabArg)evt.data;
+        view.FaDiZhuPai(e.cType);
     }
     private void OnCompleteFaPai()
     {

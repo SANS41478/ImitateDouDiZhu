@@ -17,5 +17,5 @@ public class CharacterUI : MonoBehaviour
 
     }
     public void SetScore(int score) { this.score.text = score.ToString(); }
-    public void SetShouPai(int ShouPai) { shoupai.text = " £”‡ ÷≈∆" + ShouPai.ToString(); }
+    public void SetShouPai(int ShouPai) { shoupai.text = ShouPai.ToString(); }
 }

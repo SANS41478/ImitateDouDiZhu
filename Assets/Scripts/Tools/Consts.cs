@@ -16,11 +16,23 @@ public enum CommandEvent
 {
     ChangeMulitiple, //改变倍数
     RequestPlay,//请求开始游戏
+    GrabDiZhu, //抢地主
+    ChuPai, //出牌
+    BuChu, //不出牌
+    GameOver, //游戏结束
+    RequestUpdate, //请求更新数据
+    UpdateGameOver, //更新结算界面
 }
 public enum ViewEvent 
 {
     FaPai,
     CompleteFaPai,
+    FaDiZhu, //发地主牌
+    RequestDeal,
+    SuccessDeal, //发牌成功
+    UpdateIntegration,
+    UpdateGameOver, //更新结算界面
+    RetartGame, //重新开始游戏
 
 }
 /// <summary>
