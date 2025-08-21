@@ -39,10 +39,128 @@ public class CharacterMediator : EventMediator
 
     }
 
-    private void RoundModel_ComputerHandler(ComputerSmartArgs args)
+    private void RoundModel_ComputerHandler(ComputerSmartArgs e)
     {
-        throw new NotImplementedException();
+        StartCoroutine(Delay(e));
     }
+    private IEnumerator Delay(ComputerSmartArgs e)
+    {
+        bool can = false;
+        yield return new WaitForSeconds(1.4f);
+
+        switch (e.CharacterType)
+        {
+            case CharacterType.Right:
+
+                //清空桌面
+                view.DeskControl.Clear(ShowPoint.Right);
+
+
+                can = view.ComputerRightControl.SmartSelectCards(e.CardType, e.Weight, e.Length,
+                    e.IsBiggest == CharacterType.Right);
+                if (can)
+                {
+                    List<Card> cardList = view.ComputerRightControl.SelectCards;
+                    CardType CurrType = view.ComputerRightControl.CurrType;
+
+                    //添加牌桌面
+                    foreach (var card in cardList)
+                        view.DeskControl.AddCard(card, false, ShowPoint.Right);
+                    PlayCardArgs ee = new PlayCardArgs()
+                    {
+                        CardType = CurrType,
+                        Length = cardList.Count,
+                        CharacterType = CharacterType.Right,
+                        Weight = Tool.GetWeight(cardList, CurrType)
+                    };
+
+
+                    //判断胜负
+                    if (!view.ComputerRightControl.HasCard)
+                    {
+                        Identity r = view.ComputerRightControl.Identity;
+                        Identity l = view.ComputerLeftControl.Identity;
+                        Identity p = view.PlayerControl.Identity;
+                        GameOverArg eee = new GameOverArg()
+                        {
+                            ComputerRightWin = true,
+                            ComputerLeftWin = l == r ? true : false,
+                            PlayerWin = p == r ? true : false,
+                            isLandlord = p == Identity.Landlord,
+
+                        };
+                        //游戏结束
+                        dispatcher.Dispatch(CommandEvent.GameOver, eee);
+                    }
+                    else
+                    {
+
+                        dispatcher.Dispatch(CommandEvent.ChuPai, ee);
+                    }
+                }
+                else
+                {
+                    dispatcher.Dispatch(CommandEvent.BuChu);
+                }
+
+                break;
+            case CharacterType.Left:
+                //清空桌面
+                view.DeskControl.Clear(ShowPoint.Left);
+
+                can = view.ComputerLeftControl.SmartSelectCards(e.CardType, e.Weight, e.Length,
+                    e.IsBiggest == CharacterType.Left);
+                if (can)
+                {
+                    List<Card> cardList = view.ComputerLeftControl.SelectCards;
+                    CardType CurrType = view.ComputerLeftControl.CurrType;
+                    //添加牌桌面
+                    foreach (var card in cardList)
+                        view.DeskControl.AddCard(card, false, ShowPoint.Left);
+                    PlayCardArgs ee = new PlayCardArgs()
+                    {
+                        CardType = CurrType,
+                        Length = cardList.Count,
+                        CharacterType = CharacterType.Left,
+                        Weight = Tool.GetWeight(cardList, CurrType)
+                    };
+
+
+                    //判断胜负
+                    if (!view.ComputerLeftControl.HasCard)
+                    {
+                        //游戏结束
+                        Identity r = view.ComputerRightControl.Identity;
+                        Identity l = view.ComputerLeftControl.Identity;
+                        Identity p = view.PlayerControl.Identity;
+                        GameOverArg eee = new GameOverArg()
+                        {
+                            ComputerLeftWin = true,
+                            ComputerRightWin = r == l ? true : false,
+                            PlayerWin = p == l ? true : false,
+                            isLandlord = p == Identity.Landlord,
+
+                        };
+                        //游戏结束
+                        dispatcher.Dispatch(CommandEvent.GameOver, eee);
+                    }
+                    else
+                    {
+
+                        dispatcher.Dispatch(CommandEvent.ChuPai, ee);
+                    }
+                }
+                else
+                {
+                    dispatcher.Dispatch(CommandEvent.BuChu);
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
+
 
     private void OnSuccessDeal(IEvent payload)
     {
