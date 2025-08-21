@@ -18,6 +18,8 @@ public class CharacterMediator : EventMediator
         dispatcher.AddListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.AddListener(ViewEvent.SuccessDeal, OnSuccessDeal);
 
+        RoundModel.ComputerHandler += RoundModel_ComputerHandler;
+        RoundModel.PlayerHandler += RoundModel_PlayerHandler;
     }
 
 
@@ -28,6 +30,18 @@ public class CharacterMediator : EventMediator
         dispatcher.RemoveListener(ViewEvent.FaDiZhu, OnFaDiZhu);
         dispatcher.RemoveListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.RemoveListener(ViewEvent.SuccessDeal, OnSuccessDeal);
+        RoundModel.ComputerHandler -= RoundModel_ComputerHandler;
+        RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
+    }
+    private void RoundModel_PlayerHandler(bool obj)
+    {
+        view.DeskControl.Clear(ShowPoint.Player);
+
+    }
+
+    private void RoundModel_ComputerHandler(ComputerSmartArgs args)
+    {
+        throw new NotImplementedException();
     }
 
     private void OnSuccessDeal(IEvent payload)

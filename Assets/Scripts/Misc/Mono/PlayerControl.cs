@@ -40,6 +40,8 @@ public class PlayerControl : CharacterBase
     List<CardUI> selectedCardUIs = new List<CardUI>();
     public List<Card> FindSelectCard()
     {
+        selectedCards.Clear();
+        selectedCardUIs.Clear();
         CardUI[] cardUIs = CreatePoint.GetComponentsInChildren<CardUI>();
 
         foreach (var cardUI in cardUIs)
@@ -58,21 +60,21 @@ public class PlayerControl : CharacterBase
     /// </summary>
     public void DestroySelectCard()
     {
-        if (selectedCards == null || selectedCardUIs == null)
-            return;
-        else
+        // 保证先刷新一次
+        FindSelectCard();
+
+        for (int i = 0; i < selectedCards.Count; i++)
         {
-
-            for (int i = 0; i < selectedCards.Count; i++)
-            {
-                selectedCardUIs[i].Destroy();
-                CardList.Remove(selectedCards[i]);
-            }
-
-            SortCardUI(CardList);
-            characterUI.SetShouPai(CardCount);
-
-
+            selectedCardUIs[i].Destroy();
+            CardList.Remove(selectedCards[i]);
         }
+
+        SortCardUI(CardList);
+        characterUI.SetShouPai(CardCount);
+
+        // 出完牌后清空缓存
+        selectedCards.Clear();
+        selectedCardUIs.Clear();
     }
+
 }

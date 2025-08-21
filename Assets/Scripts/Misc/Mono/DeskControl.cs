@@ -62,7 +62,7 @@ public class DeskControl : CharacterBase
     /// <param name="index"></param>
     /// <param name="isSeleted"></param>
     /// <param name="pos"></param>
-    public void CreateCardUI(Card card, int index, bool isSeleted, ShowPoint pos)
+    public  void CreateCardUI(Card card, int index, bool isSeleted, ShowPoint pos)
     {
         //对象池生成
         GameObject go = LeanPool.Spawn(prefab);
@@ -92,6 +92,13 @@ public class DeskControl : CharacterBase
     }
     public void AddCard(Card card, bool selected, ShowPoint pos)
     {
+        if (PlayercardList.Contains(card) || CardList.Contains(card)
+         || LeftcardList.Contains(card) || RightcardList.Contains(card))
+        {
+            Debug.LogWarning($"[DeskControl] 试图重复添加同一张牌: {card}");
+            return;
+        }
+
         switch (pos)
         {
             case ShowPoint.Desk:

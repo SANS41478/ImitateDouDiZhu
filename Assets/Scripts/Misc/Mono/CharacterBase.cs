@@ -104,6 +104,7 @@ public class CharacterBase : MonoBehaviour
         cardUI.Card = card;
         cardUI.IsSelected = isSeleted;
         cardUI.SetPosition(CreatePoint, index);
+
     }
 
     /// <summary>

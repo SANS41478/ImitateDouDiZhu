@@ -1,3 +1,4 @@
+using Lean.Pool;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -118,7 +119,8 @@ public class CardUI : MonoBehaviour
         btn.onClick.RemoveAllListeners();
     }
     public void Destroy()
-    {   
-        Lean.Pool.LeanPool.Despawn(gameObject); //使用LeanPool进行对象池回收
+    {
+
+        LeanPool.Despawn(gameObject); //使用LeanPool进行对象池回收
     }
 }
