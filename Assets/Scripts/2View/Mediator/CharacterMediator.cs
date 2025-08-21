@@ -9,6 +9,8 @@ public class CharacterMediator : EventMediator
 {
     [Inject]
     public CharacterView view { get; set; }
+    [Inject]
+    public RoundModel RoundModel { get; set; }
     override public void OnRegister()
     {
         view.Init();
@@ -45,9 +47,10 @@ public class CharacterMediator : EventMediator
     }
     private IEnumerator Delay(ComputerSmartArgs e)
     {
+        if (view == null) yield break;
+
         bool can = false;
         yield return new WaitForSeconds(1.4f);
-
         switch (e.CharacterType)
         {
             case CharacterType.Right:
@@ -56,8 +59,9 @@ public class CharacterMediator : EventMediator
                 view.DeskControl.Clear(ShowPoint.Right);
 
 
-                can = view.ComputerRightControl.SmartSelectCards(e.CardType, e.Weight, e.Length,
-                    e.IsBiggest == CharacterType.Right);
+                bool isLeader = (RoundModel.BiggestCharacter == CharacterType.Right);
+                can = view.ComputerRightControl.SmartSelectCards(e.CardType, e.Weight, e.Length, isLeader);
+
                 if (can)
                 {
                     List<Card> cardList = view.ComputerRightControl.SelectCards;
@@ -183,7 +187,8 @@ public class CharacterMediator : EventMediator
             {
                 ComputerRightWin = r == p ? true : false,
                 ComputerLeftWin = l == p ? true : false,
-                PlayerWin = true,
+                PlayerWin = p == r || p == l ? false : true,
+
                 isLandlord = p == Identity.Landlord,
             };
             //”Œœ∑Ω· ¯
