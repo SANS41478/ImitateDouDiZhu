@@ -15,112 +15,150 @@ public class ComputerAI_A : MonoBehaviour
     [NonSerialized]
     public CardType currType = CardType.None;
 
-    public void SmartSelectCards(List<Card> cards, CardType cardType, int weight, int length, bool isBiggest)
+    public bool SmartSelectCards(List<Card> cards, CardType cardType, int weight, int length, bool isBiggest)
     {
-        cardType = isBiggest ? CardType.None : cardType;
+        // 在方法开头加上
+        Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, incoming hand count={cards?.Count ?? 0}");
+        if (cards != null)
+        {
+            string s = "";
+            for (int i = 0; i < cards.Count; i++)
+                s += cards[i].ToString() + (i == cards.Count - 1 ? "" : ",");
+            Debug.Log("[SmartSelectCards] hand: " + s);
+        }
+
+        // 如果是首家，视作 CardType.None（意味着可任意出）
+        if (isBiggest)
+            cardType = CardType.None;
+
         currType = cardType;
+
+        // 清空之前的选择
         selectCards.Clear();
 
         switch (cardType)
         {
             case CardType.None:
-                //随机出牌
+                // 首家/随意出牌，使用开牌策略
                 selectCards = FindSmallestCards(cards);
                 break;
+
             case CardType.Single:
                 selectCards = FindSingle(cards, weight);
                 break;
+
             case CardType.Double:
                 selectCards = FindDouble(cards, weight);
                 break;
+
             case CardType.Straight:
                 selectCards = FindStraight(cards, weight, length);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindBomb(cards, -1);
-                    currType = CardType.Bomb;
-                    if (selectCards.Count == 0)
+                    if (selectCards.Count > 0) currType = CardType.Bomb;
+                    else
                     {
                         selectCards = FindJokerBoom(cards);
-                        currType = CardType.JokerBomb;
+                        if (selectCards.Count > 0) currType = CardType.JokerBomb;
                     }
                 }
                 break;
+
             case CardType.DoubleStraight:
                 selectCards = FindDoubleStraight(cards, weight, length);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindBomb(cards, -1);
-                    currType = CardType.Bomb;
-                    if (selectCards.Count == 0)
+                    if (selectCards.Count > 0) currType = CardType.Bomb;
+                    else
                     {
                         selectCards = FindJokerBoom(cards);
-                        currType = CardType.JokerBomb;
+                        if (selectCards.Count > 0) currType = CardType.JokerBomb;
                     }
                 }
                 break;
+
             case CardType.TripleStraight:
                 selectCards = FindTripleStraight(cards, weight, length);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindBomb(cards, -1);
-                    currType = CardType.Bomb;
-                    if (selectCards.Count == 0)
+                    if (selectCards.Count > 0) currType = CardType.Bomb;
+                    else
                     {
                         selectCards = FindJokerBoom(cards);
-                        currType = CardType.JokerBomb;
+                        if (selectCards.Count > 0) currType = CardType.JokerBomb;
                     }
                 }
                 break;
+
             case CardType.ThreeWithoutPair:
                 selectCards = FindTripleOnly(cards, weight);
                 break;
+
             case CardType.TripleWithSingle:
                 selectCards = FindThreeWithSingle(cards, weight);
                 break;
+
             case CardType.ThreeWithAPair:
                 selectCards = FindThreeWithPair(cards, weight);
                 break;
+
             case CardType.PlaneWithSingleWings:
                 selectCards = FindPlaneWithSingleWings(cards, weight, length);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindBomb(cards, -1);
-                    currType = CardType.Bomb;
-                    if (selectCards.Count == 0)
+                    if (selectCards.Count > 0) currType = CardType.Bomb;
+                    else
                     {
                         selectCards = FindJokerBoom(cards);
-                        currType = CardType.JokerBomb;
+                        if (selectCards.Count > 0) currType = CardType.JokerBomb;
                     }
                 }
                 break;
+
             case CardType.PlaneWithPairWings:
-                selectCards = FindTripleStraight(cards, weight, length);
+                // 修复：不要调用 FindTripleStraight，应该调用对应的查找方法
+                selectCards = FindPlaneWithPairWings(cards, weight, length);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindBomb(cards, -1);
-                    currType = CardType.Bomb;
-                    if (selectCards.Count == 0)
+                    if (selectCards.Count > 0) currType = CardType.Bomb;
+                    else
                     {
                         selectCards = FindJokerBoom(cards);
-                        currType = CardType.JokerBomb;
+                        if (selectCards.Count > 0) currType = CardType.JokerBomb;
                     }
                 }
                 break;
+
             case CardType.Bomb:
                 selectCards = FindBomb(cards, weight);
                 if (selectCards.Count == 0)
                 {
                     selectCards = FindJokerBoom(cards);
-                    currType = CardType.JokerBomb;
+                    if (selectCards.Count > 0) currType = CardType.JokerBomb;
                 }
                 break;
+
             case CardType.JokerBomb:
+                // 如果 caller 请求 JokerBomb，理论上直接选王炸（如果有）
+                selectCards = FindJokerBoom(cards);
                 break;
+
             default:
                 break;
         }
+
+        // debug 帮助定位
+        Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, requestedType={cardType}, resultCount={selectCards.Count}, currType={currType}");
+
+        // 返回是否找到了可出的牌
+        return selectCards != null && selectCards.Count > 0;
     }
+
     public List<Card> FindSmallestCards(List<Card> cards)
     {
         List<Card> select = new List<Card>();
@@ -134,7 +172,7 @@ public class ComputerAI_A : MonoBehaviour
         for (int len = Math.Min(12, cards.Count); len >= 5; len--)
         {
             select = FindStraight(cards, -1, len);
-            if (select.Count > 0) currType =CardType.Straight; return select;
+            if (select.Count > 0) { currType = CardType.Straight; return select; }
         }
 
         // 2. 飞机带单翅膀：可能是 12、8 张
@@ -143,7 +181,7 @@ public class ComputerAI_A : MonoBehaviour
             if (cards.Count >= len)
             {
                 select = FindPlaneWithSingleWings(cards, -1, len);
-                if (select.Count > 0) currType = CardType.PlaneWithSingleWings; return select;
+                if (select.Count > 0) { currType = CardType.PlaneWithSingleWings; return select; }
             }
         }
 
@@ -153,7 +191,7 @@ public class ComputerAI_A : MonoBehaviour
             if (cards.Count >= len)
             {
                 select = FindPlaneWithPairWings(cards, -1, len);
-                if (select.Count > 0) currType = CardType.PlaneWithPairWings; return select;
+                if (select.Count > 0) { currType = CardType.PlaneWithPairWings; return select; }
             }
         }
 
@@ -161,34 +199,34 @@ public class ComputerAI_A : MonoBehaviour
         if (cards.Count >= 5)
         {
             select = FindThreeWithPair(cards, -1);
-            if (select.Count > 0) currType = CardType.ThreeWithAPair; return select;
+            if (select.Count > 0){ currType = CardType.ThreeWithAPair; return select; }
         }
 
         // 5. 三带一（固定 4 张，允许拆对子）
         if (cards.Count >= 4)
         {
             select = FindThreeWithSingle(cards, -1);
-            if (select.Count > 0) currType = CardType.TripleWithSingle; return select;
+            if (select.Count > 0) { currType = CardType.TripleWithSingle; return select; }
         }
 
         // 6. 对子（固定 2 张）
         if (cards.Count >= 2)
         {
             select = FindDouble(cards, -1);
-            if (select.Count > 0) currType = CardType.Double; return select;
+            if (select.Count > 0){ currType = CardType.Double; return select;}
         }
 
         // 7. 单牌（固定 1 张）
         select = FindSingle(cards, -1);
-        if (select.Count > 0) currType = CardType.Single; return select;
+        if (select.Count > 0) { currType = CardType.Single; return select; }
 
         // 8. 炸弹（固定 4 张）
         select = FindBomb(cards, -1);
-        if (select.Count > 0) currType = CardType.Bomb; return select;
+        if (select.Count > 0) { currType = CardType.Bomb; return select; }
 
         // 9. 王炸（固定 2 张）
         select = FindJokerBoom(cards);
-        if (select.Count > 0) currType = CardType.JokerBomb; return select;
+        if (select.Count > 0) { currType = CardType.JokerBomb; return select; }
 
         return select;
     }

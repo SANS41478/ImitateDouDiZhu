@@ -27,6 +27,7 @@ public class ChuPaiCommand : EventCommand
             else
             {
                 UnityEngine.Debug.Log("ÖØÐÂÑ¡Ôñ");
+                Debug.Log(e.CardType);
                 return;
             }
 

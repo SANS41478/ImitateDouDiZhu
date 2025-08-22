@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameOverArg : MonoBehaviour
+public class GameOverArg
 {
     public bool PlayerWin = false;
     public bool ComputerRightWin = false;
