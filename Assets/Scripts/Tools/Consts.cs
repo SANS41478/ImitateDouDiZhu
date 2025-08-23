@@ -11,6 +11,7 @@ public enum PanelType
     StartPanel,
     CharacterPanel, //角色选择面板
     InteractionPanel, //积分面板
+    GameOverPanel, //游戏结束面板
 }
 public enum CommandEvent 
 {
@@ -32,7 +33,7 @@ public enum ViewEvent
     SuccessDeal, //发牌成功
     UpdateIntegration,
     UpdateGameOver, //更新结算界面
-    RetartGame, //重新开始游戏
+    RestartGame, //重新开始游戏
 
 }
 /// <summary>

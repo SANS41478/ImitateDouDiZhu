@@ -19,11 +19,12 @@ public class CharacterMediator : EventMediator
         dispatcher.AddListener(ViewEvent.FaDiZhu,OnFaDiZhu);
         dispatcher.AddListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.AddListener(ViewEvent.SuccessDeal, OnSuccessDeal);
+        dispatcher.AddListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
+        dispatcher.Dispatch(CommandEvent.RequestUpdate);
 
         RoundModel.ComputerHandler += RoundModel_ComputerHandler;
         RoundModel.PlayerHandler += RoundModel_PlayerHandler;
     }
-
 
     override public void OnRemove()
     {
@@ -32,9 +33,19 @@ public class CharacterMediator : EventMediator
         dispatcher.RemoveListener(ViewEvent.FaDiZhu, OnFaDiZhu);
         dispatcher.RemoveListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.RemoveListener(ViewEvent.SuccessDeal, OnSuccessDeal);
+        dispatcher.RemoveListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
         RoundModel.ComputerHandler -= RoundModel_ComputerHandler;
         RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
     }
+
+    private void OnUpdateIntegration(IEvent payload)
+    {
+        GameData gameData = (GameData)payload.data;
+        view.PlayerControl.characterUI.SetScore(gameData.playerIntegration);
+        view.ComputerLeftControl.characterUI.SetScore(gameData.computerLeftIntegration);
+        view.ComputerRightControl.characterUI.SetScore(gameData.computerRightIntegration);
+    }
+
     private void RoundModel_PlayerHandler(bool obj)
     {
         view.DeskControl.Clear(ShowPoint.Player);

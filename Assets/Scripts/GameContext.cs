@@ -23,11 +23,14 @@ public class GameContext : MVCSContext
         commandBinder.Bind(CommandEvent.GrabDiZhu).To<GrabDiZhuCommand>();
         commandBinder.Bind(CommandEvent.ChuPai).To<ChuPaiCommand>();
         commandBinder.Bind(CommandEvent.BuChu).To<BuChuCommand>();
+        commandBinder.Bind(CommandEvent.GameOver).To<GameOverCommand>();
+        commandBinder.Bind(CommandEvent.RequestUpdate).To<RequestUpdateCommand>();
 
         //view
         mediationBinder.Bind<StartView>().To<StartMediator>();
         mediationBinder.Bind<InteractionView>().To<InteractionMediator>();
         mediationBinder.Bind<CharacterView>().To<CharacterMediator>();
+        mediationBinder.Bind<GameOverView>().To<GameOverMediator>();
 
     }
 }
