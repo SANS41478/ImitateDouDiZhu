@@ -29,7 +29,7 @@ public class DeskUI : MonoBehaviour
         SetAlpha(1);
     }
 
-    private void SetAlpha(int v)
+    public void SetAlpha(int v)
     {
         DiZhuPaiGroup.alpha = v;
     }

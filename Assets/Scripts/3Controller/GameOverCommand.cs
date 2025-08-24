@@ -45,7 +45,7 @@ public class GameOverCommand : EventCommand
             computerRightIntegration = IntergrationModel.ComputerRightIntegration,
             playerIntegration = IntergrationModel.PlayerIntegration,
         };
-        //Tool.SaveData(data);
+        Tool.SaveData(data);
 
 
         //显示数据

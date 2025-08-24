@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Text;
+using System.Xml.Serialization;
 using UnityEngine;
 
 public static class Tool 
@@ -119,6 +122,34 @@ public static class Tool
                 return -1;
         }
     }
+    public static void SaveData(GameData data)
+    {
+        Stream stream = new FileStream(Consts.DataPath, FileMode.OpenOrCreate, FileAccess.Write);
+        StreamWriter sw = new StreamWriter(stream, Encoding.UTF8);
+        XmlSerializer xml = new XmlSerializer(data.GetType());
+        xml.Serialize(sw, data);
 
+        stream.Close();
+        sw.Close();
+
+    }
+
+    /// <summary>
+    /// 获取数据
+    /// </summary>
+    /// <returns></returns>
+    public static GameData GetData()
+    {
+        GameData data = new GameData();
+        Stream stream = new FileStream(Consts.DataPath, FileMode.Open, FileAccess.Read);
+        StreamReader sr = new StreamReader(stream, true);
+        XmlSerializer xml = new XmlSerializer(data.GetType());
+
+        data = xml.Deserialize(sr) as GameData;
+        stream.Close();
+        sr.Close();
+
+        return data;
+    }
 
 }

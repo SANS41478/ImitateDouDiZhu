@@ -23,6 +23,7 @@ public class InteractionMediator : EventMediator
 
         dispatcher.AddListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
         dispatcher.AddListener(ViewEvent.SuccessDeal, OnSuccessDeal);
+        dispatcher.AddListener(ViewEvent.RestartGame, OnRestartGame);
 
         RoundModel.PlayerHandler += RoundModel_PlayerHandler;
 
@@ -38,9 +39,16 @@ public class InteractionMediator : EventMediator
 
         dispatcher.RemoveListener(ViewEvent.CompleteFaPai, OnCompleteFaPai);
         dispatcher.RemoveListener(ViewEvent.SuccessDeal, OnSuccessDeal);
+        dispatcher.RemoveListener(ViewEvent.RestartGame, OnRestartGame);
 
         RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
 
+    }
+
+    private void OnRestartGame(IEvent payload)
+    {
+        InteractionView.DeactiveAll();
+        InteractionView.KaiShiYouXi();
     }
 
     private void OnPassClick()

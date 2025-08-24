@@ -20,6 +20,7 @@ public class CharacterMediator : EventMediator
         dispatcher.AddListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.AddListener(ViewEvent.SuccessDeal, OnSuccessDeal);
         dispatcher.AddListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
+        dispatcher.AddListener(ViewEvent.RestartGame, OnRestartGame);
         dispatcher.Dispatch(CommandEvent.RequestUpdate);
 
         RoundModel.ComputerHandler += RoundModel_ComputerHandler;
@@ -34,8 +35,30 @@ public class CharacterMediator : EventMediator
         dispatcher.RemoveListener(ViewEvent.RequestDeal, OnRequestDeal);
         dispatcher.RemoveListener(ViewEvent.SuccessDeal, OnSuccessDeal);
         dispatcher.RemoveListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
+        dispatcher.RemoveListener(ViewEvent.RestartGame, OnRestartGame);
+
         RoundModel.ComputerHandler -= RoundModel_ComputerHandler;
         RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
+    }
+
+    private void OnRestartGame()
+    {
+        //对象池的回收
+        Lean.Pool.LeanPool.DespawnAll();
+
+        //数据移除
+        view.PlayerControl.CardList.Clear();
+        view.ComputerLeftControl.CardList.Clear();
+        view.ComputerRightControl.CardList.Clear();
+        view.DeskControl.CardList.Clear();
+
+        //初始化UI
+        view.Init();
+        view.PlayerControl.characterUI.SetShouPai(0);
+        view.ComputerLeftControl.characterUI.SetShouPai(0);
+        view.ComputerRightControl.characterUI.SetShouPai(0);
+        view.DeskControl.deskUI.SetAlpha(0);
+
     }
 
     private void OnUpdateIntegration(IEvent payload)

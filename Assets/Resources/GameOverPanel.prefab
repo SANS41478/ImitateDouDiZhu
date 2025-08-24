@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1971930444, guid: 8c8124a9f7485c646bb507e4f26b1318, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -325,7 +325,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6234121276444773749}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -358,6 +358,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2607349363832539383}
   - component: {fileID: 3013481246758698933}
+  - component: {fileID: 7816678784094520934}
   m_Layer: 5
   m_Name: GameOverPanel
   m_TagString: Untagged
@@ -393,3 +394,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8356659448935495845}
   m_CullTransparentMesh: 1
+--- !u!114 &7816678784094520934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8356659448935495845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fc47bbdce864c4da57f7b1fe129ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showImg: {fileID: 5170342149525006738}
+  showList:
+  - {fileID: -1971930444, guid: 8c8124a9f7485c646bb507e4f26b1318, type: 3}
+  - {fileID: 69027753, guid: 8c8124a9f7485c646bb507e4f26b1318, type: 3}
+  - {fileID: 784387939, guid: 8c8124a9f7485c646bb507e4f26b1318, type: 3}
+  - {fileID: 1189516448, guid: 8c8124a9f7485c646bb507e4f26b1318, type: 3}
+  Btn: {fileID: 3721984951107624857}

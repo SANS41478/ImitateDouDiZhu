@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Consts 
 {
+    public static string DataPath = Application.dataPath + @"\score.xml";
 
 }
 public enum PanelType 
