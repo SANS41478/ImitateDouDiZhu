@@ -129,7 +129,7 @@ public static class Tool
         XmlSerializer xml = new XmlSerializer(data.GetType());
         xml.Serialize(sw, data);
 
-        stream.Close();
+        //stream.Close();
         sw.Close();
 
     }
