@@ -200,7 +200,7 @@ public class CharacterMediator : EventMediator
     }
 
 
-    private void OnSuccessDeal(IEvent payload)
+    private void OnSuccessDeal()
     {
         List<Card> cardList = view.PlayerControl.FindSelectCard();
         //Çå¿Õ×ÀÃæ

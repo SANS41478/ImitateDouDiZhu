@@ -12,5 +12,7 @@ public class ChangeMulitipleCommand : EventCommand
         IntegrationModel.Mulitiple*=(int)evt.data;
         Tool.CreatedPanel(PanelType.CharacterPanel);
         Tool.CreatedPanel(PanelType.InteractionPanel);
+        AudioManager.Instance.StopMusic();
+        AudioManager.Instance.PlayMusic("kaijvbgm");
     }
 }
