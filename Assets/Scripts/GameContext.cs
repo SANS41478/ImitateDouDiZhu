@@ -26,6 +26,7 @@ public class GameContext : MVCSContext
         commandBinder.Bind(CommandEvent.GameOver).To<GameOverCommand>();
         commandBinder.Bind(CommandEvent.RequestUpdate).To<RequestUpdateCommand>();
         commandBinder.Bind(CommandEvent.UpdateGameOver).To<UpdateGameOverCommand>();
+        commandBinder.Bind(CommandEvent.PlaySFX).To<PlaySFXCommand>();
 
         //view
         mediationBinder.Bind<StartView>().To<StartMediator>();

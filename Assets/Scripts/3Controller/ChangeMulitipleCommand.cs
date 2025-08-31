@@ -14,5 +14,6 @@ public class ChangeMulitipleCommand : EventCommand
         Tool.CreatedPanel(PanelType.InteractionPanel);
         AudioManager.Instance.StopMusic();
         AudioManager.Instance.PlayMusic("kaijvbgm");
+        AudioManager.Instance.SetMusicVolume(0.7f);
     }
 }

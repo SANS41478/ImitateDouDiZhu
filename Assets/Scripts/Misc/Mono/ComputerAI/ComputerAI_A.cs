@@ -18,13 +18,13 @@ public class ComputerAI_A : MonoBehaviour
     public bool SmartSelectCards(List<Card> cards, CardType cardType, int weight, int length, bool isBiggest)
     {
         // 在方法开头加上
-        Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, incoming hand count={cards?.Count ?? 0}");
+        //Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, incoming hand count={cards?.Count ?? 0}");
         if (cards != null)
         {
             string s = "";
             for (int i = 0; i < cards.Count; i++)
                 s += cards[i].ToString() + (i == cards.Count - 1 ? "" : ",");
-            Debug.Log("[SmartSelectCards] hand: " + s);
+            //Debug.Log("[SmartSelectCards] hand: " + s);
         }
 
         // 如果是首家，视作 CardType.None（意味着可任意出）
@@ -153,7 +153,7 @@ public class ComputerAI_A : MonoBehaviour
         }
 
         // debug 帮助定位
-        Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, requestedType={cardType}, resultCount={selectCards.Count}, currType={currType}");
+        //Debug.Log($"[SmartSelectCards] isBiggest={isBiggest}, requestedType={cardType}, resultCount={selectCards.Count}, currType={currType}");
 
         // 返回是否找到了可出的牌
         return selectCards != null && selectCards.Count > 0;

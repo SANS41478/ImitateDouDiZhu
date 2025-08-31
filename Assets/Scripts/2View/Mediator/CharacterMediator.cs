@@ -112,7 +112,6 @@ public class CharacterMediator : EventMediator
                         Weight = Tool.GetWeight(cardList, CurrType)
                     };
 
-
                     //判断胜负
                     if (!view.ComputerRightControl.HasCard)
                     {
@@ -134,6 +133,8 @@ public class CharacterMediator : EventMediator
                     {
 
                         dispatcher.Dispatch(CommandEvent.ChuPai, ee);
+                        dispatcher.Dispatch(CommandEvent.PlaySFX);
+                        Debug.Log("右电脑出牌广播音效事件");
                     }
                 }
                 else
@@ -163,7 +164,6 @@ public class CharacterMediator : EventMediator
                         Weight = Tool.GetWeight(cardList, CurrType)
                     };
 
-
                     //判断胜负
                     if (!view.ComputerLeftControl.HasCard)
                     {
@@ -186,6 +186,9 @@ public class CharacterMediator : EventMediator
                     {
 
                         dispatcher.Dispatch(CommandEvent.ChuPai, ee);
+                        dispatcher.Dispatch(CommandEvent.PlaySFX);
+                        Debug.Log("左电脑出牌广播音效事件");
+
                     }
                 }
                 else
@@ -251,6 +254,9 @@ public class CharacterMediator : EventMediator
 
             dispatcher.Dispatch(CommandEvent.ChuPai, e);
             //牌不对的话，if没有判断成功
+            //播放音效
+            dispatcher.Dispatch(CommandEvent.PlaySFX);
+            Debug.Log("玩家出牌广播音效事件");
         }
         else
         {

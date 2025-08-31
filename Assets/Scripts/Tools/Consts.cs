@@ -24,6 +24,8 @@ public enum CommandEvent
     GameOver, //游戏结束
     RequestUpdate, //请求更新数据
     UpdateGameOver, //更新结算界面
+    PlaySFX //播放音效
+
 }
 public enum ViewEvent 
 {
