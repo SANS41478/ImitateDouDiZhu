@@ -10,6 +10,7 @@ public class GrabDiZhuCommand : EventCommand
 
     public override void Execute()
     {
+        AudioManager.Instance.PlaySFX("qiangdizhu");
         GrabAndDisGrabArg e = (GrabAndDisGrabArg)evt.data;
         //·¢µØÖ÷ÅÆ
         dispatcher.Dispatch(ViewEvent.FaDiZhu, e);

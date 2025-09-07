@@ -32,6 +32,10 @@ public class ChuPaiCommand : EventCommand
             }
 
         }
+        else if(e.CharacterType == CharacterType.Right|| e.CharacterType == CharacterType.Left) 
+        {
+            dispatcher.Dispatch(ViewEvent.AISuccessDeal);
+        }
         //更新数据
         RoundModel.BiggestCharacter = e.CharacterType;
         RoundModel.CurrentLength = e.Length;
@@ -185,4 +189,5 @@ public class ChuPaiCommand : EventCommand
 
 
     }
+
 }

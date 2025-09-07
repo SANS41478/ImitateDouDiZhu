@@ -24,7 +24,6 @@ public enum CommandEvent
     GameOver, //游戏结束
     RequestUpdate, //请求更新数据
     UpdateGameOver, //更新结算界面
-    PlaySFX //播放音效
 
 }
 public enum ViewEvent 
@@ -33,11 +32,11 @@ public enum ViewEvent
     CompleteFaPai,
     FaDiZhu, //发地主牌
     RequestDeal,
-    SuccessDeal, //发牌成功
+    SuccessDeal, //出牌成功
     UpdateIntegration,
     UpdateGameOver, //更新结算界面
     RestartGame, //重新开始游戏
-
+    AISuccessDeal,//电脑成功出牌
 }
 /// <summary>
 /// 出牌类型

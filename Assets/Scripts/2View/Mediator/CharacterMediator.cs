@@ -7,6 +7,17 @@ using UnityEngine;
 
 public class CharacterMediator : EventMediator
 {
+    // 音乐只触发一次
+    private bool hasPlayedLiangzhangpaiBGM = false;
+
+    // 每个角色的音效只触发一次
+    private bool hasPlayedLiangzhangpaiSFX_Player = false;
+    private bool hasPlayedLiangzhangpaiSFX_Left = false;
+    private bool hasPlayedLiangzhangpaiSFX_Right = false;
+    private bool hasPlayedYizhangpaiSFX_Player = false;
+    private bool hasPlayedYizhangpaiSFX_Left = false;
+    private bool hasPlayedYizhangpaiSFX_Right = false;
+
     [Inject]
     public CharacterView view { get; set; }
     [Inject]
@@ -21,6 +32,7 @@ public class CharacterMediator : EventMediator
         dispatcher.AddListener(ViewEvent.SuccessDeal, OnSuccessDeal);
         dispatcher.AddListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
         dispatcher.AddListener(ViewEvent.RestartGame, OnRestartGame);
+        dispatcher.AddListener(ViewEvent.AISuccessDeal, OnAISuccessDeal);
         dispatcher.Dispatch(CommandEvent.RequestUpdate);
 
         RoundModel.ComputerHandler += RoundModel_ComputerHandler;
@@ -36,6 +48,8 @@ public class CharacterMediator : EventMediator
         dispatcher.RemoveListener(ViewEvent.SuccessDeal, OnSuccessDeal);
         dispatcher.RemoveListener(ViewEvent.UpdateIntegration, OnUpdateIntegration);
         dispatcher.RemoveListener(ViewEvent.RestartGame, OnRestartGame);
+        dispatcher.RemoveListener(ViewEvent.AISuccessDeal, OnAISuccessDeal);
+
 
         RoundModel.ComputerHandler -= RoundModel_ComputerHandler;
         RoundModel.PlayerHandler -= RoundModel_PlayerHandler;
@@ -133,8 +147,7 @@ public class CharacterMediator : EventMediator
                     {
 
                         dispatcher.Dispatch(CommandEvent.ChuPai, ee);
-                        dispatcher.Dispatch(CommandEvent.PlaySFX);
-                        Debug.Log("右电脑出牌广播音效事件");
+
                     }
                 }
                 else
@@ -186,8 +199,7 @@ public class CharacterMediator : EventMediator
                     {
 
                         dispatcher.Dispatch(CommandEvent.ChuPai, ee);
-                        dispatcher.Dispatch(CommandEvent.PlaySFX);
-                        Debug.Log("左电脑出牌广播音效事件");
+
 
                     }
                 }
@@ -231,9 +243,61 @@ public class CharacterMediator : EventMediator
             //游戏结束
             dispatcher.Dispatch(CommandEvent.GameOver, eee);
         }
-
+        CheckAndPlayAudio();
     }
 
+    private void OnAISuccessDeal()
+    {
+        CheckAndPlayAudio();
+    }
+
+    public void CheckAndPlayAudio()
+    {
+        // 音乐只触发一次
+        if (!hasPlayedLiangzhangpaiBGM &&
+            (view.PlayerControl.CardCount <= 2 ||
+             view.ComputerLeftControl.CardCount <= 2 ||
+             view.ComputerRightControl.CardCount <= 2))
+        {
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("liangzhangpaibgm");
+            hasPlayedLiangzhangpaiBGM = true;
+        }
+
+        // 两张牌音效每角色只触发一次
+        if (view.PlayerControl.CardCount == 2 && !hasPlayedLiangzhangpaiSFX_Player)
+        {
+            AudioManager.Instance.PlaySFX("liangzhangpai");
+            hasPlayedLiangzhangpaiSFX_Player = true;
+        }
+        if (view.ComputerLeftControl.CardCount == 2 && !hasPlayedLiangzhangpaiSFX_Left)
+        {
+            AudioManager.Instance.PlaySFX("liangzhangpai");
+            hasPlayedLiangzhangpaiSFX_Left = true;
+        }
+        if (view.ComputerRightControl.CardCount == 2 && !hasPlayedLiangzhangpaiSFX_Right)
+        {
+            AudioManager.Instance.PlaySFX("liangzhangpai");
+            hasPlayedLiangzhangpaiSFX_Right = true;
+        }
+
+        // 一张牌音效每角色只触发一次
+        if (view.PlayerControl.CardCount == 1 && !hasPlayedYizhangpaiSFX_Player)
+        {
+            AudioManager.Instance.PlaySFX("yizhangpai");
+            hasPlayedYizhangpaiSFX_Player = true;
+        }
+        if (view.ComputerLeftControl.CardCount == 1 && !hasPlayedYizhangpaiSFX_Left)
+        {
+            AudioManager.Instance.PlaySFX("yizhangpai");
+            hasPlayedYizhangpaiSFX_Left = true;
+        }
+        if (view.ComputerRightControl.CardCount == 1 && !hasPlayedYizhangpaiSFX_Right)
+        {
+            AudioManager.Instance.PlaySFX("yizhangpai");
+            hasPlayedYizhangpaiSFX_Right = true;
+        }
+    }
     /// <summary>
     /// 玩家出牌调用
     private void OnRequestDeal()
@@ -254,9 +318,6 @@ public class CharacterMediator : EventMediator
 
             dispatcher.Dispatch(CommandEvent.ChuPai, e);
             //牌不对的话，if没有判断成功
-            //播放音效
-            dispatcher.Dispatch(CommandEvent.PlaySFX);
-            Debug.Log("玩家出牌广播音效事件");
         }
         else
         {
