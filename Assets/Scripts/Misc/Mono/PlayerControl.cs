@@ -22,6 +22,7 @@ public class PlayerControl : CharacterBase
 
     public override void AddCard(Card card, bool selected)
     {
+        //card.BelongTo = CharacterType.Player;
         base.AddCard(card, selected);
         // Update the UI to reflect the new card count
         characterUI.SetShouPai(CardCount);

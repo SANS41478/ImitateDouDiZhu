@@ -65,6 +65,5 @@ public class GameOverCommand : EventCommand
         //清除游戏数据
         RoundModel.InitRound();
         CardModel.InitCardLibrary();
-
     }
 }

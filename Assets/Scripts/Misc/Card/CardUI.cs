@@ -21,6 +21,14 @@ public class CardUI : MonoBehaviour
             SetImage();
         }
     }
+    private void Update()
+    {
+        //if (isSelected)
+        //{
+        //    Debug.Log("选中牌：" + card.CardName);
+        //    Debug.Log(transform.localPosition.y);
+        //}
+    }
     public bool IsSelected
     {
         get
@@ -29,6 +37,7 @@ public class CardUI : MonoBehaviour
         }
         set
         {
+            Debug.Log($"尝试修改 IsSelected：当前值={isSelected}, 目标值={value}, BelongTo={card.BelongTo}");
             if (card.BelongTo != CharacterType.Player || isSelected == value)
                 return;
             if (value)
@@ -61,6 +70,7 @@ public class CardUI : MonoBehaviour
     /// <param name="index">子物体索引</param>
     public void SetPosition(Transform parent, int index)
     {
+        //Debug.Log($"设置位置：BelongTo={card.BelongTo}, index={index}");
         transform.SetParent(parent,false);
         transform.SetSiblingIndex(index);
         if (card.BelongTo == CharacterType.Desk || card.BelongTo == CharacterType.Player)
@@ -86,6 +96,8 @@ public class CardUI : MonoBehaviour
         btn = GetComponent<LearnButton>();
         btn.PressedBtn += Btn_PressedBtn;
         btn.HighlightedBtn += Btn_HighlightedBtn;
+        isSelected = false; // 新增：重置选中状态
+        //Debug.Log("OnSpawn被调用");
     }
     private void Btn_HighlightedBtn()
     {
@@ -108,6 +120,7 @@ public class CardUI : MonoBehaviour
         {
             IsSelected = !IsSelected;
             //Sound.Instance.PlayEffect(Consts.Select);
+            Debug.Log("按下：" + card.CardName);
         }
     }
 
@@ -117,6 +130,12 @@ public class CardUI : MonoBehaviour
         isSelected = false;
         image.sprite = null;
         btn.onClick.RemoveAllListeners();
+        // 新增：移除 LearnButton 的自定义事件监听（如果有外部订阅）
+        if (btn != null)
+        {
+            btn.PressedBtn -= Btn_PressedBtn;    // 移除 PressedBtn 事件的订阅
+            btn.HighlightedBtn -= Btn_HighlightedBtn;  // 移除 HighlightedBtn 事件的订阅
+        }
     }
     public void Destroy()
     {

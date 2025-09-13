@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,9 @@ public class CardModel
             {
                 ColorType c = (ColorType)color;
                 Weight w = (Weight)weight;
-                string name = c.ToString() + w.ToString();
+                string name = c.ToString()  + w.ToString();
+                //string name = String.Format("{0}-{1}", c, w);
+                // {0} 对应第一个参数 c，{1} 对应第二个参数 w（自动调用 ToString()）
                 Card card = new Card(name, c, w, CharacterType.Library);
                 CardLibrary.Enqueue(card);
             }

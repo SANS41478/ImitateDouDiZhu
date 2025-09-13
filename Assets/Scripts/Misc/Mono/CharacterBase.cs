@@ -98,7 +98,9 @@ public class CharacterBase : MonoBehaviour
     {
         //对象池生成
         GameObject go = LeanPool.Spawn(prefab);
-        go.name = characterType.ToString() + index.ToString();
+        //go.name = characterType.ToString() + index.ToString();
+        go.name = card.ColorType1.ToString() + "-" + card.Cardweight.ToString() ;
+
         //设置位置和是否选中
         CardUI cardUI = go.GetComponent<CardUI>();
         cardUI.Card = card;
