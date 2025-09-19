@@ -1,0 +1,27 @@
+# ================
+# Unity 自动生成文件
+# ================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Uu]user[Ss]ettings/
+/.vs/
+/.vsconfig
+/*.csproj
+/*.sln
+/*.suo
+/*.userprefs
+/[Ll]ogs/
+/[Pp]ackages/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Aa]ssets/AssetStoreTools*
+
+# ================
+# OS 和 IDE 临时文件
+# ================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
